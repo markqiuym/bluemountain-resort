@@ -41,7 +41,7 @@ session_start();
                         } else {
                             ?>
                             <li>
-                                <button class="btn btn-dark btn-lg btn-block" type="button"
+                                <button class="btn btn-primary" type="button"
                                     onclick="location.href='signup.php'">Register</button>
                                 <button class="btn btn-dark btn-lg btn-block" type="button"
                                     onclick="location.href='login.php'">Login</button>

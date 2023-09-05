@@ -27,7 +27,12 @@
 	<link rel="stylesheet" href="css/tiny-date-picker.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/media-query.css" />
-
+	<script src="javascript">
+		function validation() {
+			window.location.href = 'book.php';
+			alert " ss "
+		}
+	</script>
 </head>
 
 <body id="impx-body">
@@ -105,6 +110,8 @@
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											<a href="book.php" class="uk-button uk-button-text impx-text-aqua">Book</a>
 										</div>
 									</div>
 								</div>
@@ -282,7 +289,8 @@
 								</div>
 								<div>
 									<label class="uk-form-label empty-label">&nbsp;</label>
-									<button class="uk-button uk-width-1-1">Book Now!</button>
+									<button class="uk-button uk-width-1-1" onclick="validation()">Book
+										Now!</button>
 								</div>
 							</form>
 						</div>
