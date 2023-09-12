@@ -1,129 +1,296 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+
 
 <head>
 
-    <!-- Standard Meta -->
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <!-- Site Properties -->
-    <title>Rooms - Sativa</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<!-- Standard Meta -->
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/tiny-date-picker.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media-query.css" />
+	<!-- Site Properties -->
+	<title>Rooms - Sativa</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/tiny-date-picker.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media-query.css" />
+	<script src="javascript">
+		function validation() {
+			// window.location.href = 'accommandations.php';
+			alert " ss "
+		}
+	</script>
 </head>
 
-<body>
-    <!-- Multilangage Switcher Start -->
-    <?php include './components/lang.html'; ?>
-    <!-- Multilangage Switcher End -->
-    <!-- HEADER -->
-    <header id="impx-header">
-        <div>
-            <div class="impx-menu-wrapper style2"
-                data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
-                <!-- Mobile Nav Start -->
-                <?php include './components/header-mobile.html'; ?>
-                <!-- Mobile Nav End -->
-            </div>
-        </div>
+<body id="impx-body">
+	<!-- Multilangage Switcher Start -->
+	<?php include './components/lang.html'; ?>
+	<!-- Multilangage Switcher End -->
+	<!-- HEADER -->
+	<header id="impx-header">
+		<div>
+			<div class="impx-menu-wrapper style2"
+				data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+				<!-- Mobile Nav Start -->
+				<?php include './components/header-mobile.html'; ?>
+				<!-- Mobile Nav End -->
+				<!-- Top Header -->
+				<?php include './components/header-top.php'; ?>
+				<!-- Top Header End -->
+				<?php include './components/header.html'; ?>
+			</div>
+		</div>
 
-    </header>
-    <!-- HEADER END -->
+	</header>
+	<!-- HEADER END -->
 
-    <!-- booking form -->
-    <div class="bg-color-aqua  impx-padding-medium" style="width: 30rem; margin:0 auto;">
-        <!-- <div class="impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top"> -->
-        <h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
-                Form</span></h6>
-        <form class="row g-3">
-            <div class="col-md-4">
-                <label for="validationServer01" class="form-label">First name</label>
-                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationServer02" class="form-label">Last name</label>
-                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationServerUsername" class="form-label">Username</label>
-                <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                    <input type="text" class="form-control is-invalid" id="validationServerUsername"
-                        aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
-                        Please choose a username.
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="validationServer03" class="form-label">City</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03"
-                    aria-describedby="validationServer03Feedback" required>
-                <div id="validationServer03Feedback" class="invalid-feedback">
-                    Please provide a valid city.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationServer04" class="form-label">State</label>
-                <select class="form-select is-invalid" id="validationServer04"
-                    aria-describedby="validationServer04Feedback" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                </select>
-                <div id="validationServer04Feedback" class="invalid-feedback">
-                    Please select a valid state.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationServer05" class="form-label">Zip</label>
-                <input type="text" class="form-control is-invalid" id="validationServer05"
-                    aria-describedby="validationServer05Feedback" required>
-                <div id="validationServer05Feedback" class="invalid-feedback">
-                    Please provide a valid zip.
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
-                        aria-describedby="invalidCheck3Feedback" required>
-                    <label class="form-check-label" for="invalidCheck3">
-                        Agree to terms and conditions
-                    </label>
-                    <div id="invalidCheck3Feedback" class="invalid-feedback">
-                        You must agree before submitting.
-                    </div>
-                </div>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-        </form>
-        <!-- </div> -->
-    </div>
-    <!-- booking form -->
+	<!-- PAGE HEADING -->
+	<div class="impx-page-heading uk-position-relative rooms" style="height: 8rem;">
+		<div class="impx-overlay dark"></div>
+		<div class="uk-container">
+			<div class="uk-width-1-1">
+				<div class="uk-flex uk-flex-left">
+					<div class="uk-light uk-position-relative uk-text-left page-title">
+						<h1 class="uk-margin-remove">Book</h1>page title
+						<!-- <p class="impx-text-large uk-margin-remove">Browse &amp; Choose Your Choice</p> -->
+						<!-- page subtitle -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- PAGE HEADING END -->
+
+	<!-- CONTENT -->
+
+
+	<!-- sidebar -->
+	<div class="uk-flex uk-flex-center uk-flex-middle">
+		<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@s">
+
+			<!-- booking form -->
+			<div class="bg-color-aqua uk-padding impx-padding-medium">
+				<div class="impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top">
+					<h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
+							Form</span></h6>
+					<form class="">
+						<div class="uk-margin">
+							<div class="uk-form-controls">
+								<div class="uk-inline">
+									<label class="uk-form-label">Email</label>
+									<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
+									<input class="uk-input booking-email uk-border-rounded" type="text"
+										placeholder="your e-mail" required>
+								</div>
+							</div>
+						</div>
+						<div class="uk-margin">
+							<div class="uk-form-controls">
+								<div class="uk-inline">
+									<label class="uk-form-label">Arrival</label>
+									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
+									<input class="uk-input booking-arrival uk-border-rounded" type="text"
+										placeholder="m/dd/yyyy" required>
+								</div>
+							</div>
+						</div>
+						<div class="uk-margin">
+							<div class="uk-form-controls">
+								<div class="uk-inline">
+									<label class="uk-form-label">Departure</label>
+									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
+									<input class="uk-input booking-departure uk-border-rounded" type="text"
+										placeholder="m/dd/yyyy" required>
+								</div>
+							</div>
+						</div>
+						<div class="uk-margin">
+							<div class="uk-form-controls uk-position-relative">
+								<label class="uk-form-label" for="form-guest-select">Guest</label>
+								<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
+								<select class="uk-select uk-border-rounded" id="form-guest-select" required>
+									<option value="">Please select...</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+						</div>
+						<div class="uk-margin">
+							<div class="uk-form-controls uk-position-relative">
+								<label class="uk-form-label" for="form-rooms-select">RESORT</label>
+								<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
+								<select class="uk-select uk-border-rounded" id="form-rooms-select" required>
+									<option value="">Please select...</option>
+									<option value="room_1">Single</option>
+									<option value="room_2">Double</option>
+									<option value="room_3">Primier</option>
+									<option value="room_4">Deluxe</option>
+								</select>
+							</div>
+						</div>
+						<div class="uk-button uk-width-1-1">
+							<label class="uk-form-label empty-label">&nbsp;</label>
+							<button class="uk-button uk-width-1-3" onclick="validation()">Book
+								Now!</button>
+							<button class="uk-button uk-width-1-3" onclick="validation()">Close</button>
+						</div>
+
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- booking form -->
+
+	<!-- features -->
+	<!-- <div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
+			<h4 class="uk-heading-line uk-margin-medium-bottom"><span>Our Key Features</span></h4>
+			<ul class="uk-list uk-list-divider uk-list-large">
+				<li>
+					<div data-uk-grid class="uk-grid-medium">
+						<div class="uk-width-auto">
+							<i class="fa fa-cutlery fa-2x impx-text-aqua"></i>
+						</div>
+						<div class="uk-width-expand">
+							<h6 class="uk-margin-remove">In-house Restaurant</h6>
+							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
+								agendum esse natos. Quam tu ponis in verbis ego</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div data-uk-grid class="uk-grid-medium">
+						<div class="uk-width-auto">
+							<i class="fa fa-asterisk fa-2x impx-text-aqua"></i>
+						</div>
+						<div class="uk-width-expand">
+							<h6 class="uk-margin-remove">Spa</h6>
+							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
+								agendum esse natos. Quam tu ponis in verbis ego</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div data-uk-grid class="uk-grid-medium">
+						<div class="uk-width-auto">
+							<i class="fa fa-paw fa-2x impx-text-aqua"></i>
+						</div>
+						<div class="uk-width-expand">
+							<h6 class="uk-margin-remove">Outdoor</h6>
+							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
+								agendum esse natos. Quam tu ponis in verbis ego</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div data-uk-grid class="uk-grid-medium">
+						<div class="uk-width-auto">
+							<i class="fa fa-heart fa-2x impx-text-aqua"></i>
+						</div>
+						<div class="uk-width-expand">
+							<h6 class="uk-margin-remove">Gym</h6>
+							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
+								agendum esse natos. Quam tu ponis in verbis</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div> -->
+	<!-- features end -->
+
+	</div>
+	<!-- sidebar end -->
+
+	</div>
+	</div>
+	</div>
+	<!-- CONTENT END -->
+	<div class="uk-padding bg-img2 uk-position-relative">
+
+		<div class="uk-flex uk-flex-center uk-flex-middle">
+			<!-- CONTACT INFO -->
+			<div class="pre-footer-contact uk-padding bg-img2 uk-position-relative">
+				<div class="impx-overlay dark"></div>
+				<div class="uk-container">
+
+					<div data-uk-grid class="uk-padding-remove-bottom uk-position-relative">
+						<div class="uk-light uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-3@s">
+							<!-- address -->
+							<h5 class="uk-heading-line uk-margin-remove-bottom"><span>Address</span></h5>
+							<p class="impx-text-large uk-margin-top">Jln. Raya Kemerderkaan RI No. 17<br />Indonesia
+								Raya</p>
+						</div>
+						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s">
+							<!-- phone -->
+							<h5 class="uk-heading-line uk-margin-bottom"><span>Phone</span></h5>
+							<p class="impx-text-large uk-margin-remove">+62 123456789<br />+62 987456123</p>
+						</div>
+						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s">
+							<!-- email -->
+							<h5 class="uk-heading-line uk-margin-bottom"><span>Email</span></h5>
+							<a href="mailt:#" class="impx-text-large">cs@sativa-html.com</a><br />
+							<a href="mailt:#" class="impx-text-large">info@sativa-html.com</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTACT INFO END -->
+
+	<!-- FOOTER -->
+	<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+		<div class="uk-container">
+			<div class="uk-flex uk-flex-center data-uk-grid">
+				<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
+					<div class="impx-footer-logo uk-align-center uk-text-center">
+						<!-- Footer Logo -->
+						<img src="images/logo.png" alt="" class="">
+						<!-- Footer Note -->
+						<p class="uk-margin-bottom">Erit enim mecum, si tecum erit. Re mihi non aeque satisfacit, et
+							quidem locis dissimile homini. Intrandum est igitur in rerum naturam et penitus quid ea
+							postulet.</p>
+						<!-- Site Copyright -->
+						<p class="impx-copyright"><a href="https://www.templatespoint.net" target="_blank">Templates
+								Point</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Scroll to Top -->
+		<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
+		<!-- Scroll to Top End -->
+	</footer>
+	<!-- FOOTER END -->
+
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<script type="text/javascript"
+		src="http://maps.google.com/maps/api/js?key=AIzaSyBGb3xrNtz335X4G2KfoOXb-XuIyHAzlVo"></script>
+	<script src="js/jquery.gmap.min.js"></script>
+	<script src="js/jquery.parallax.min.js"></script>
+	<script src="js/tiny-date-picker.min.js"></script>
+	<script src="js/date-config.js"></script>
+	<script src="js/template-config.js"></script>
 </body>
+
 
 </html>

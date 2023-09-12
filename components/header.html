@@ -1,3 +1,10 @@
+<style>
+    /* 设置链接文字颜色 */
+    .custom-link-color {
+        color: red;
+        /* 设置为所需的颜色 */
+    }
+</style>
 <div class="uk-container uk-container-expand">
     <div data-uk-grid>
 
@@ -10,8 +17,10 @@
         <!-- Header Logo End-->
 
         <!-- Header Navigation -->
+
         <div class="uk-width-expand uk-position-relative">
             <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s uk-visible@m" data-uk-navbar>
+
                 <div class="uk-navbar-right impx-navbar-right">
                     <ul class="uk-navbar-nav impx-nav style2">
                         <!-- Navigation Items -->
@@ -27,9 +36,9 @@
                                 </div>
                             </a>
                             <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="accommandations.php">ACCOMMADANTIONS</a></li>
-                                    <li><a href="restaurant.php">RESTAURANT</a></li>
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-nav-header"><a href="accommandations.php">ACCOMMADANTIONS</a></li>
+                                    <li class="uk-nav-header"><a href="restaurant.php">RESTAURANT</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -38,8 +47,8 @@
                                 </div>
                             </a>
                             <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="spa.php">SPA</a></li>
+                                <ul class="uk-nav uk-navbar-dropdown-nav custom-link-color">
+                                    <li class="uk-nav-header"><a href="spa.php">SPA</a></li>
                                 </ul>
                             </div>
                         </li>

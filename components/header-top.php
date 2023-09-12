@@ -9,7 +9,7 @@ session_start();
 //     echo "User ID not set in session.";
 // }
 ?>
-<div class="impx-top-header style2">
+<div class="impx-top-header style2" style="height: 2rem;">
     <div class="uk-container uk-container-expand">
 
         <div class="uk-grid">
@@ -41,10 +41,12 @@ session_start();
                         } else {
                             ?>
                             <li>
-                                <button class="btn btn-primary" type="button"
+
+                                <button type="button" class="uk-button uk-button-primary uk-button-small uk-border-rounded"
                                     onclick="location.href='signup.php'">Register</button>
-                                <button class="btn btn-dark btn-lg btn-block" type="button"
-                                    onclick="location.href='login.php'">Login</button>
+                                <button class="uk-button uk-button-primary uk-button-small uk-border-rounded" type="button"
+                                    onclick="location.href='login.php'">&nbsp;&nbsp;Login&nbsp;&nbsp;</button>
+
                             </li>
 
                             <?php
@@ -52,6 +54,7 @@ session_start();
                         ?>
 
                     </ul>
+
                 </div>
             </div><!-- header social media end -->
         </div>
