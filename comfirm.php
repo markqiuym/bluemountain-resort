@@ -55,8 +55,7 @@ if (isset($_POST['arrivalDate'])) {
 	<!-- HEADER -->
 	<header id="impx-header">
 		<div>
-			<div class="impx-menu-wrapper style2"
-				data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+			<div class="impx-menu-wrapper style2">
 				<!-- Mobile Nav Start -->
 				<?php include './components/header-mobile.html'; ?>
 				<!-- Mobile Nav End -->
@@ -88,7 +87,7 @@ if (isset($_POST['arrivalDate'])) {
 	<!-- PAGE HEADING END -->
 
 	<!-- CONTENT -->
-	<form action="#" method="POST">
+	<form action="book.php" method="POST" onsubmit="return check()">
 		<div class="uk-padding uk-padding-remove-horizontal">
 			<div class="uk-container">
 				<div data-uk-grid>
@@ -152,6 +151,7 @@ if (isset($_POST['arrivalDate'])) {
 								</ul>
 							</div>
 						</div>
+						<br>
 						<!-- Payment method -->
 
 						<div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
@@ -201,6 +201,7 @@ if (isset($_POST['arrivalDate'])) {
 								</ul>
 							</div>
 						</div>
+						<br>
 						<div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
 							<div class="uk-position-relative uk-visible-toggle">
 								<h4 class="uk-margin-medium-bottom"><span>Important information</span></h4>
@@ -232,7 +233,7 @@ if (isset($_POST['arrivalDate'])) {
 								<div class="uk-button uk-width-1-1">
 									<label class="uk-form-label empty-label">&nbsp;</label>
 									<button class="uk-button uk-width-1-3 uk-border-rounded uk-button-primary"
-										id="js-modal-dialog" type="sumbit" onclick="check()">Complete
+										id="js-modal-dialog" type="submit">Complete
 										booking ></button>
 									<button class="uk-button uk-width-1-3 uk-border-rounded uk-button-primary"
 										onclick="window.location.href = 'book.php';">Close</button>
@@ -368,27 +369,7 @@ if (isset($_POST['arrivalDate'])) {
 	<!-- CONTACT INFO END -->
 
 	<!-- FOOTER -->
-	<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-		<div class="uk-container">
-			<div class="uk-flex uk-flex-center data-uk-grid">
-				<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
-					<div class="impx-footer-logo uk-align-center uk-text-center">
-						<!-- Footer Logo -->
-						<img src="images/logo.png" alt="" class="">
-						<!-- Footer Note -->
-						<p class="uk-margin-bottom">Erit enim mecum, si tecum erit. Re mihi non aeque satisfacit, et
-							quidem locis dissimile homini. Intrandum est igitur in rerum naturam et penitus quid ea
-							postulet.</p>
-						<!-- Site Copyright -->
-						<p class="impx-copyright"><a href="https://www.templatespoint.net" target="_blank">Templates
-								Point</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Scroll to Top -->
-		<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
-		<!-- Scroll to Top End -->
+	<?php include './components/footer.html'; ?>
 	</footer>
 	<!-- FOOTER END -->
 	<!-- This is the modal -->
@@ -409,15 +390,18 @@ if (isset($_POST['arrivalDate'])) {
 	<script>
 
 		function check() {
-			UIkit.util.on('#js-modal-dialog', 'click', function (e) {
-				e.preventDefault();
-				e.target.blur();
-				UIkit.modal.confirm('UIkit confirm!').then(function () {
-					console.log('Confirmed.')
-				}, function () {
-					console.log('Rejected.')
-				});
-			});
+			// UIkit.util.on('#js-modal-dialog', 'click', function (e) {
+			// 	e.preventDefault();
+			// 	e.target.blur();
+			// 	UIkit.modal.confirm('UIkit confirm!').then(function () {
+			// 		console.log('Confirmed.')
+			alert("The room has been booked successfully!")
+			// window.location.href = 'book.php'
+			// 	}, function () {
+			// 		console.log('Rejected.')
+			// 		return false
+			// 	});
+			// });
 		}
 	</script>
 	<script src="js/jquery.js"></script>

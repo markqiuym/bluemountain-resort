@@ -657,36 +657,15 @@
 	<!-- CTA END -->
 
 	<!-- FOOTER -->
-	<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-		<div class="uk-container">
-			<div class="uk-flex uk-flex-center data-uk-grid">
-				<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
-					<div class="impx-footer-logo uk-align-center uk-text-center">
-						<!-- Footer Logo -->
-						<img src="images/logo.png" alt="" class="">
-						<!-- Footer Note -->
-						<p class="uk-margin-bottom">Erit enim mecum, si tecum erit. Re mihi non aeque satisfacit, et
-							quidem locis dissimile homini. Intrandum est igitur in rerum naturam et penitus quid ea
-							postulet.</p>
-						<!-- Site Copyright -->
-						<p class="impx-copyright"><a href="https://www.templatespoint.net" target="_blank">Templates
-								Point</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Scroll to Top -->
-		<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
-		<!-- Scroll to Top End -->
-	</footer>
+	<?php include './components/footer.html'; ?>
 	<!-- FOOTER END -->
 
 	<!-- Javascript -->
 	<script src="js/jquery.js"></script>
 	<script src="js/uikit.min.js"></script>
 	<script src="js/uikit-icons.min.js"></script>
-	<script type="text/javascript"
-		src="http://maps.google.com/maps/api/js?key=AIzaSyBGb3xrNtz335X4G2KfoOXb-XuIyHAzlVo"></script>
+	<!-- <script type="text/javascript"
+		src="http://maps.google.com/maps/api/js?key=AIzaSyBGb3xrNtz335X4G2KfoOXb-XuIyHAzlVo"></script> -->
 	<script src="js/jquery.gmap.min.js"></script>
 	<script src="js/jquery.parallax.min.js"></script>
 	<script src="js/template-config.js"></script>

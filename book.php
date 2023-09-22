@@ -57,7 +57,7 @@
 			<div class="uk-width-1-1">
 				<div class="uk-flex uk-flex-left">
 					<div class="uk-light uk-position-relative uk-text-left page-title">
-						<h1 class="uk-margin-remove">Book</h1>page title
+						<!-- <h1 class="uk-margin-remove">Book</h1>page title -->
 					</div>
 				</div>
 			</div>
