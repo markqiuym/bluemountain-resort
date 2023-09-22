@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <head>
 
 	<!-- Standard Meta -->
@@ -27,12 +25,7 @@
 	<link rel="stylesheet" href="css/tiny-date-picker.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/media-query.css" />
-	<script src="javascript">
-		function validation() {
-			// window.location.href = 'accommandations.php';
-			alert " ss "
-		}
-	</script>
+
 </head>
 
 <body id="impx-body">
@@ -65,8 +58,6 @@
 				<div class="uk-flex uk-flex-left">
 					<div class="uk-light uk-position-relative uk-text-left page-title">
 						<h1 class="uk-margin-remove">Book</h1>page title
-						<!-- <p class="impx-text-large uk-margin-remove">Browse &amp; Choose Your Choice</p> -->
-						<!-- page subtitle -->
 					</div>
 				</div>
 			</div>
@@ -74,36 +65,30 @@
 	</div>
 	<!-- PAGE HEADING END -->
 
-	<!-- CONTENT -->
-
 
 	<!-- sidebar -->
+	<br>
+	<br>
+	<br>
+	<br>
 	<div class="uk-flex uk-flex-center uk-flex-middle">
 		<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@s">
 
 			<!-- booking form -->
-			<div class="bg-color-aqua uk-padding impx-padding-medium">
+			<div class="bg-gradient-seawead uk-padding impx-padding-medium">
 				<div class="impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top">
 					<h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
 							Form</span></h6>
-					<form class="">
-						<div class="uk-margin">
-							<div class="uk-form-controls">
-								<div class="uk-inline">
-									<label class="uk-form-label">Email</label>
-									<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
-									<input class="uk-input booking-email uk-border-rounded" type="text"
-										placeholder="your e-mail" required>
-								</div>
-							</div>
-						</div>
+					<form action="comfirm.php" method="POST">
+						<input type="hidden" name="price" id="price">
+						<input type="hidden" name="image" id="image" value="44">
 						<div class="uk-margin">
 							<div class="uk-form-controls">
 								<div class="uk-inline">
 									<label class="uk-form-label">Arrival</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
 									<input class="uk-input booking-arrival uk-border-rounded" type="text"
-										placeholder="m/dd/yyyy" required>
+										name="arrivalDate" placeholder="m/dd/yyyy" required>
 								</div>
 							</div>
 						</div>
@@ -112,8 +97,8 @@
 								<div class="uk-inline">
 									<label class="uk-form-label">Departure</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
-									<input class="uk-input booking-departure uk-border-rounded" type="text"
-										placeholder="m/dd/yyyy" required>
+									<input class="uk-input booking-departure uk-border-rounded" name="departureDate"
+										type="text" placeholder="m/dd/yyyy" required>
 								</div>
 							</div>
 						</div>
@@ -121,7 +106,8 @@
 							<div class="uk-form-controls uk-position-relative">
 								<label class="uk-form-label" for="form-guest-select">Guest</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
-								<select class="uk-select uk-border-rounded" id="form-guest-select" required>
+								<select class="uk-select uk-border-rounded" id="form-guest-select" name="guestNumber"
+									required>
 									<option value="">Please select...</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -134,85 +120,30 @@
 							<div class="uk-form-controls uk-position-relative">
 								<label class="uk-form-label" for="form-rooms-select">RESORT</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
-								<select class="uk-select uk-border-rounded" id="form-rooms-select" required>
+								<select class="uk-select uk-border-rounded" id="form-rooms-select" name="roomsTpye"
+									onchange="myFunction()" required>
 									<option value="">Please select...</option>
-									<option value="room_1">Single</option>
-									<option value="room_2">Double</option>
-									<option value="room_3">Primier</option>
-									<option value="room_4">Deluxe</option>
+									<option value="Single Room">Single</option>
+									<option value="Double Room">Double</option>
+									<option value="Primier Room">Primier</option>
+									<option value="Deluxe Room">Deluxe</option>
 								</select>
 							</div>
+							<span id="display" name="price"></span>
 						</div>
 						<div class="uk-button uk-width-1-1">
 							<label class="uk-form-label empty-label">&nbsp;</label>
-							<button class="uk-button uk-width-1-3" onclick="validation()">Book
+							<button class="uk-button uk-width-1-3">Book
 								Now!</button>
-							<button class="uk-button uk-width-1-3" onclick="validation()">Close</button>
+							<button class="uk-button uk-width-1-3"
+								onclick="window.location.href = 'accommandations.php';">Close</button>
 						</div>
-
+					</form>
 				</div>
-				</form>
 			</div>
 		</div>
 	</div>
 	<!-- booking form -->
-
-	<!-- features -->
-	<!-- <div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
-			<h4 class="uk-heading-line uk-margin-medium-bottom"><span>Our Key Features</span></h4>
-			<ul class="uk-list uk-list-divider uk-list-large">
-				<li>
-					<div data-uk-grid class="uk-grid-medium">
-						<div class="uk-width-auto">
-							<i class="fa fa-cutlery fa-2x impx-text-aqua"></i>
-						</div>
-						<div class="uk-width-expand">
-							<h6 class="uk-margin-remove">In-house Restaurant</h6>
-							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-								agendum esse natos. Quam tu ponis in verbis ego</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div data-uk-grid class="uk-grid-medium">
-						<div class="uk-width-auto">
-							<i class="fa fa-asterisk fa-2x impx-text-aqua"></i>
-						</div>
-						<div class="uk-width-expand">
-							<h6 class="uk-margin-remove">Spa</h6>
-							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-								agendum esse natos. Quam tu ponis in verbis ego</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div data-uk-grid class="uk-grid-medium">
-						<div class="uk-width-auto">
-							<i class="fa fa-paw fa-2x impx-text-aqua"></i>
-						</div>
-						<div class="uk-width-expand">
-							<h6 class="uk-margin-remove">Outdoor</h6>
-							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-								agendum esse natos. Quam tu ponis in verbis ego</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div data-uk-grid class="uk-grid-medium">
-						<div class="uk-width-auto">
-							<i class="fa fa-heart fa-2x impx-text-aqua"></i>
-						</div>
-						<div class="uk-width-expand">
-							<h6 class="uk-margin-remove">Gym</h6>
-							<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-								agendum esse natos. Quam tu ponis in verbis</p>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div> -->
-	<!-- features end -->
-
 	</div>
 	<!-- sidebar end -->
 
@@ -220,64 +151,7 @@
 	</div>
 	</div>
 	<!-- CONTENT END -->
-	<div class="uk-padding bg-img2 uk-position-relative">
 
-		<div class="uk-flex uk-flex-center uk-flex-middle">
-			<!-- CONTACT INFO -->
-			<div class="pre-footer-contact uk-padding bg-img2 uk-position-relative">
-				<div class="impx-overlay dark"></div>
-				<div class="uk-container">
-
-					<div data-uk-grid class="uk-padding-remove-bottom uk-position-relative">
-						<div class="uk-light uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-3@s">
-							<!-- address -->
-							<h5 class="uk-heading-line uk-margin-remove-bottom"><span>Address</span></h5>
-							<p class="impx-text-large uk-margin-top">Jln. Raya Kemerderkaan RI No. 17<br />Indonesia
-								Raya</p>
-						</div>
-						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s">
-							<!-- phone -->
-							<h5 class="uk-heading-line uk-margin-bottom"><span>Phone</span></h5>
-							<p class="impx-text-large uk-margin-remove">+62 123456789<br />+62 987456123</p>
-						</div>
-						<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-3@s">
-							<!-- email -->
-							<h5 class="uk-heading-line uk-margin-bottom"><span>Email</span></h5>
-							<a href="mailt:#" class="impx-text-large">cs@sativa-html.com</a><br />
-							<a href="mailt:#" class="impx-text-large">info@sativa-html.com</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- CONTACT INFO END -->
-
-	<!-- FOOTER -->
-	<footer id="impx-footer" class="uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-		<div class="uk-container">
-			<div class="uk-flex uk-flex-center data-uk-grid">
-				<div class="uk-width-1-2@xl uk-width-1-2@l uk-width-2-3@m">
-					<div class="impx-footer-logo uk-align-center uk-text-center">
-						<!-- Footer Logo -->
-						<img src="images/logo.png" alt="" class="">
-						<!-- Footer Note -->
-						<p class="uk-margin-bottom">Erit enim mecum, si tecum erit. Re mihi non aeque satisfacit, et
-							quidem locis dissimile homini. Intrandum est igitur in rerum naturam et penitus quid ea
-							postulet.</p>
-						<!-- Site Copyright -->
-						<p class="impx-copyright"><a href="https://www.templatespoint.net" target="_blank">Templates
-								Point</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Scroll to Top -->
-		<a href="#top" class="to-top fa fa-long-arrow-up" data-uk-scroll></a>
-		<!-- Scroll to Top End -->
-	</footer>
-	<!-- FOOTER END -->
 
 	<!-- Javascript -->
 	<script src="js/jquery.js"></script>
@@ -290,6 +164,32 @@
 	<script src="js/tiny-date-picker.min.js"></script>
 	<script src="js/date-config.js"></script>
 	<script src="js/template-config.js"></script>
+	<script>
+		function myFunction() {
+			var rooms = document.getElementById("form-rooms-select").value;
+			if (rooms === 'Single Room') {
+				document.getElementById("display").innerHTML = "The price is $50/night";
+				document.getElementById("price").value = 50;
+				document.getElementById("image").value = "images/rooms/room-1.jpg";
+			}
+			if (rooms === 'Double Room') {
+				document.getElementById("display").innerHTML = "The price is $80/night";
+				document.getElementById("price").value = 80;
+				document.getElementById("image").value = "images/rooms/room-2.jpg";
+			}
+			if (rooms === 'Primier Room') {
+				document.getElementById("display").innerHTML = "The price is $100/night";
+				document.getElementById("price").value = 100;
+				document.getElementById("image").value = "images/rooms/room-3.jpg";
+			}
+			if (rooms === 'Deluxe Room') {
+				document.getElementById("display").innerHTML = "The price is $150/night";
+				document.getElementById("price").value = 150;
+				document.getElementById("image").value = "images/rooms/room-4.jpg";
+			}
+
+		}
+	</script>
 </body>
 
 

@@ -110,8 +110,8 @@
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-											<a href="book.php" class="uk-button uk-button-text impx-text-aqua">Book</a>
+											<!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											<a href="book.php" class="uk-button uk-button-text impx-text-aqua">Book</a> -->
 										</div>
 									</div>
 								</div>
@@ -224,79 +224,6 @@
 
 				<!-- sidebar -->
 				<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@m uk-width-1-1@s uk-margin-small-top">
-
-					<!-- booking form -->
-					<div class="bg-color-aqua uk-padding impx-padding-medium">
-						<div class="impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top">
-							<h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
-									Form</span></h6>
-							<form class="">
-								<div class="uk-margin">
-									<div class="uk-form-controls">
-										<div class="uk-inline">
-											<label class="uk-form-label">Email</label>
-											<span class="uk-form-icon" data-uk-icon="icon: mail"></span>
-											<input class="uk-input booking-email uk-border-rounded" type="text"
-												placeholder="your e-mail">
-										</div>
-									</div>
-								</div>
-								<div class="uk-margin">
-									<div class="uk-form-controls">
-										<div class="uk-inline">
-											<label class="uk-form-label">Arrival</label>
-											<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
-											<input class="uk-input booking-arrival uk-border-rounded" type="text"
-												placeholder="m/dd/yyyy">
-										</div>
-									</div>
-								</div>
-								<div class="uk-margin">
-									<div class="uk-form-controls">
-										<div class="uk-inline">
-											<label class="uk-form-label">Departure</label>
-											<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
-											<input class="uk-input booking-departure uk-border-rounded" type="text"
-												placeholder="m/dd/yyyy">
-										</div>
-									</div>
-								</div>
-								<div class="uk-margin">
-									<div class="uk-form-controls uk-position-relative">
-										<label class="uk-form-label" for="form-guest-select">Guest</label>
-										<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
-										<select class="uk-select uk-border-rounded" id="form-guest-select">
-											<option value="">Please select...</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-										</select>
-									</div>
-								</div>
-								<div class="uk-margin">
-									<div class="uk-form-controls uk-position-relative">
-										<label class="uk-form-label" for="form-rooms-select">RESORT</label>
-										<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
-										<select class="uk-select uk-border-rounded" id="form-rooms-select">
-											<option value="">Please select...</option>
-											<option value="room_1">Single</option>
-											<option value="room_2">Double</option>
-											<option value="room_3">Primier</option>
-											<option value="room_4">Deluxe</option>
-										</select>
-									</div>
-								</div>
-								<div>
-									<label class="uk-form-label empty-label">&nbsp;</label>
-									<button class="uk-button uk-width-1-1" onclick="validation()">Book
-										Now!</button>
-								</div>
-							</form>
-						</div>
-					</div>
-					<!-- booking form -->
-
 					<!-- features -->
 					<div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
 						<h4 class="uk-heading-line uk-margin-medium-bottom"><span>Our Key Features</span></h4>

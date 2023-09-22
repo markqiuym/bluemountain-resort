@@ -293,7 +293,7 @@
 						</div>
 
 						<!-- Booking Form -->
-						<div class="uk-margin-medium-bottom uk-margin-medium-top">
+						<!-- <div class="uk-margin-medium-bottom uk-margin-medium-top">
 							<div class="impx-hp-booking-form impx-margin-top-small">
 								<h6 class="uk-heading-line uk-text-center uk-margin-small-bottom impx-text-white">
 									<span>Booking
@@ -356,7 +356,7 @@
 									</div>
 								</form>
 							</div>
-						</div>
+						</div> -->
 						<!-- Booking Form End -->
 
 						<!-- Intro Text -->
