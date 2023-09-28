@@ -12,9 +12,17 @@ if (isset($_POST['arrivalDate'])) {
 	$timestamp1 = strtotime($arrivaldate);
 	$timestamp2 = strtotime($departureDate);
 	$diff = $timestamp2 - $timestamp1;
-	$days_difference = floor($diff / (60 * 60 * 24));
 
-	$totel = $price * ($days_difference - 1);
+
+	$days_difference = floor($diff / (60 * 60 * 24));
+	if ($days_difference == 1) {
+		$nightNum = $days_difference;
+		$totel = $price * ($days_difference);
+	} else {
+		$nightNum = $days_difference - 1;
+		$totel = $price * ($days_difference - 1);
+	}
+
 }
 ?>
 
@@ -280,7 +288,7 @@ if (isset($_POST['arrivalDate'])) {
 												<?php echo ($departureDate) ?>
 											</h6>
 											<h6 class="uk-margin-remove">
-												<?php echo ($days_difference) - 1 ?>-night stay
+												<?php echo ($nightNum) ?>-night stay
 											</h6>
 										</div>
 									</div>
