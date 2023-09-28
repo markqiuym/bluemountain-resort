@@ -68,7 +68,6 @@
 
 	<!-- sidebar -->
 	<br>
-	<br>
 	<div class="uk-flex uk-flex-center uk-flex-middle">
 		<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@s">
 
@@ -86,7 +85,7 @@
 									<label class="uk-form-label">Arrival</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
 									<input class="uk-input booking-arrival uk-border-rounded" type="text"
-										name="arrivalDate" placeholder="m/dd/yyyy" required>
+										name="arrivalDate" id="arrivalDate" placeholder="m/dd/yyyy">
 								</div>
 							</div>
 						</div>
@@ -96,7 +95,17 @@
 									<label class="uk-form-label">Departure</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
 									<input class="uk-input booking-departure uk-border-rounded" name="departureDate"
-										type="text" placeholder="m/dd/yyyy" required>
+										id="departureDate" type="text" placeholder="m/dd/yyyy">
+								</div>
+							</div>
+						</div>
+						<div class="uk-margin">
+							<div class="uk-form-controls">
+								<div class="uk-inline">
+									<label class="uk-form-label">Room Number</label>
+									<span class="uk-form-icon" data-uk-icon="icon: lifesaver"></span>
+									<input class="uk-input booking-departure uk-border-rounded" name="roomNum"
+										id="roomNum" type="text" placeholder="Room number...">
 								</div>
 							</div>
 						</div>
@@ -104,8 +113,7 @@
 							<div class="uk-form-controls uk-position-relative">
 								<label class="uk-form-label" for="form-guest-select">Guest</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
-								<select class="uk-select uk-border-rounded" id="form-guest-select" name="guestNumber"
-									required>
+								<select class="uk-select uk-border-rounded" id="form-guest-select" name="guestNumber">
 									<option value="">Please select...</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -116,10 +124,10 @@
 						</div>
 						<div class="uk-margin">
 							<div class="uk-form-controls uk-position-relative">
-								<label class="uk-form-label" for="form-rooms-select">RESORT</label>
+								<label class="uk-form-label" for="form-rooms-select">Room Type</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
 								<select class="uk-select uk-border-rounded" id="form-rooms-select" name="roomsTpye"
-									onchange="myFunction()" required>
+									onchange="myFunction()">
 									<option value="">Please select...</option>
 									<option value="Single Room">Single</option>
 									<option value="Double Room">Double</option>
@@ -131,7 +139,7 @@
 						</div>
 						<div class="uk-button uk-width-1-1">
 							<label class="uk-form-label empty-label">&nbsp;</label>
-							<button class="uk-button uk-width-1-3">Book
+							<button class="uk-button uk-width-1-3" onclick="return validation()">Book
 								Now!</button>
 							<button class="uk-button uk-width-1-3"
 								onclick="window.location.href = 'accommandations.php';">Close</button>
@@ -141,7 +149,6 @@
 			</div>
 		</div>
 	</div>
-	<br>
 	<br>
 	<!-- CONTACT INFO -->
 	<?php include './components/contactInfo.html'; ?>
@@ -187,6 +194,60 @@
 				document.getElementById("image").value = "images/rooms/room-4.jpg";
 			}
 
+		}
+
+		function validation() {
+			var today = new Date();
+			var arrivalDate = document.getElementById("arrivalDate").value;
+			var departureDate = document.getElementById("departureDate").value;
+			var roomNum = document.getElementById("roomNum").value;
+			var formguestselect = document.getElementById("form-guest-select").value;
+			var formroomsselect = document.getElementById("form-rooms-select").value;
+			// alert("arrivalDate:" + arrivalDate);
+			// alert("departureDate:" + departureDate);
+			var tToday = today.getMonth() + 1 + "/" + today.getDate() + "/" + today.getFullYear()
+			// alert("now:" + tToday);
+			if (arrivalDate == "") {
+				alert("Arrival date cannot be empty!");
+				document.getElementById("arrivalDate").focus();
+				return false;
+			}
+			if (arrivalDate < tToday) {
+				alert("Arrival date must be greater than today!");
+				document.getElementById("arrivalDate").focus();
+				return false;
+			}
+			if (departureDate == "") {
+				alert("Departure date cannot be empty!");
+				document.getElementById("departureDate").focus();
+				return false;
+			}
+			if (departureDate < tToday) {
+				alert("Departure date must be greater than today!");
+				document.getElementById("departureDate").focus();
+				return false;
+			}
+			if (arrivalDate >= departureDate) {
+				alert("Arrival date must be greater than start date! ");
+				document.getElementById("departureDate").focus();
+				return false;
+			}
+			if (roomNum == "") {
+				alert("Room Number cannot be empty!");
+				document.getElementById("roomNum").focus();
+				return false;
+			}
+			if (formguestselect == "") {
+				alert("Guest Number cannot be empty!");
+				document.getElementById("form-guest-select").focus();
+				return false;
+			}
+			if (formroomsselect == "") {
+				alert("Room Type cannot be empty!");
+				document.getElementById("form-rooms-select").focus();
+				return false;
+			}
+			return true
 		}
 	</script>
 </body>

@@ -106,13 +106,11 @@
 												nihil</li>
 										</ul>
 
-										<div
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-											<!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-											<a href="book.php" class="uk-button uk-button-text impx-text-aqua">Book</a> -->
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #1 end -->
@@ -138,11 +136,11 @@
 												nihil</li>
 										</ul>
 
-										<div
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #2 end -->
@@ -168,11 +166,11 @@
 												nihil</li>
 										</ul>
 
-										<div
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #3 end -->
@@ -198,11 +196,11 @@
 												nihil</li>
 										</ul>
 
-										<div
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="room-detail.html"
 												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #4 end -->
@@ -212,11 +210,11 @@
 
 					<!-- rooms paging -->
 					<ul class="uk-pagination uk-flex-center impx-pagination uk-margin-remove-top" data-uk-margin>
-						<li><a href="#"><span data-uk-pagination-previous></span></a></li>
+						<!-- <li><a href="#"><span data-uk-pagination-previous></span></a></li> -->
 						<li class="uk-active"><span>1</span></li>
-						<li><a href="#">2</a></li>
+						<!-- <li><a href="#">2</a></li>
 						<li><a href="#">3</a></li>
-						<li><a href="#"><span data-uk-pagination-next></span></a></li>
+						<li><a href="#"><span data-uk-pagination-next></span></a></li> -->
 					</ul>
 					<!-- rooms paging end -->
 				</div>

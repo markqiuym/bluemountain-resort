@@ -7,6 +7,7 @@ if (isset($_POST['arrivalDate'])) {
 	$roomsTpye = $_POST['roomsTpye'];
 	$price = $_POST['price'];
 	$image = $_POST['image'];
+	$roomNum = $_POST['roomNum'];
 	// echo ($image);
 
 	$timestamp1 = strtotime($arrivaldate);
@@ -17,10 +18,10 @@ if (isset($_POST['arrivalDate'])) {
 	$days_difference = floor($diff / (60 * 60 * 24));
 	if ($days_difference == 1) {
 		$nightNum = $days_difference;
-		$totel = $price * ($days_difference);
+		$total = $roomNum * $price * $days_difference;
 	} else {
 		$nightNum = $days_difference - 1;
-		$totel = $price * ($days_difference - 1);
+		$total = $roomNum * $price * ($days_difference - 1);
 	}
 
 }
@@ -304,11 +305,12 @@ if (isset($_POST['arrivalDate'])) {
 								<li>
 									<div data-uk-grid class="uk-grid-medium">
 										<div class="uk-width-expand">
-											<h6 class="uk-margin-remove">1 room x
-												<?php echo ($days_difference) - 1 ?> night&nbsp
+											<h6 class="uk-margin-remove">
+												<?php echo $roomNum ?> room x
+												<?php echo $nightNum ?> night&nbsp
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 												AU$
-												<?php echo ($price) ?>.00
+												<?php echo ($total) ?>.00
 
 											</h6>
 											<br>
@@ -329,7 +331,7 @@ if (isset($_POST['arrivalDate'])) {
 												&nbsp&nbsp&nbsp&nbsp&nbsp
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 												AU$
-												<?php echo ($totel) ?> .00
+												<?php echo ($total) ?> .00
 											</h4>
 										</div>
 									</div>
@@ -373,18 +375,7 @@ if (isset($_POST['arrivalDate'])) {
 	<script>
 
 		function check() {
-			// UIkit.util.on('#js-modal-dialog', 'click', function (e) {
-			// 	e.preventDefault();
-			// 	e.target.blur();
-			// 	UIkit.modal.confirm('UIkit confirm!').then(function () {
-			// 		console.log('Confirmed.')
 			alert("The room has been booked successfully!")
-			// window.location.href = 'book.php'
-			// 	}, function () {
-			// 		console.log('Rejected.')
-			// 		return false
-			// 	});
-			// });
 		}
 	</script>
 	<script src="js/jquery.js"></script>
