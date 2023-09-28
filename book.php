@@ -69,8 +69,6 @@
 	<!-- sidebar -->
 	<br>
 	<br>
-	<br>
-	<br>
 	<div class="uk-flex uk-flex-center uk-flex-middle">
 		<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@s">
 
@@ -143,14 +141,15 @@
 			</div>
 		</div>
 	</div>
-	<!-- booking form -->
-	</div>
-	<!-- sidebar end -->
+	<br>
+	<br>
+	<!-- CONTACT INFO -->
+	<?php include './components/contactInfo.html'; ?>
+	<!-- CONTACT INFO END -->
 
-	</div>
-	</div>
-	</div>
-	<!-- CONTENT END -->
+	<!-- FOOTER -->
+	<?php include './components/footer.html'; ?>
+	<!-- FOOTER END -->
 
 
 	<!-- Javascript -->

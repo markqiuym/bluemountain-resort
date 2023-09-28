@@ -16,7 +16,20 @@ session_start();
             <!-- header phone -->
             <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
                 <div class="impx-top-phone">
-                    <p><i class="fa fa-phone"></i> Phone : +62 123456789</p>
+                    <!-- <p><i class="fa fa-phone"></i> Phone : +62 123456789</p> -->
+                    <?php
+                    if (isset($_SESSION["username"])) {
+                        ?>
+                        <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                            onclick="location.href = 'book.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
+                        <?php
+                    } else {
+                        ?>
+                        <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                            uk-toggle="target: #modal-example">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
+                        <?php
+                    }
+                    ?>
                 </div>
             </div><!-- header phone end-->
             <!-- header social media -->
@@ -26,22 +39,26 @@ session_start();
                         <?php
                         if (isset($_SESSION["username"])) {
                             ?>
-                            <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
-                                onclick="location.href = 'book.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
+                            <!-- <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                                onclick="location.href = 'book.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button> -->
                             <li class="uk-parent uk-active">
+
                                 <a href="logout.php" class="uk-navbar-nav-subtitle">
-                                    <div style="font-size: 1rem;color: yellow">
+
+                                    <div style="font-size: 1.5rem;color: yellow">
+                                        <span uk-icon="user"></span>
                                         Welcome
                                         <?php echo $_SESSION["username"] ?>
                                     </div>
 
                                 </a>
                             </li>
+
                             <?php
                         } else {
                             ?>
-                            <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
-                                uk-toggle="target: #modal-example">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
+                            <!-- <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                                uk-toggle="target: #modal-example">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button> -->
                             <li>
 
                                 <button type="button" class="uk-button uk-button-primary uk-button-small uk-border-rounded"

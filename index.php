@@ -547,17 +547,6 @@
 						class="impx-overlay aqua-darkest  uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
 						<div class="uk-container">
 
-							<div
-								class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-margin-medium-bottom">
-								<!-- Location -->
-								<h4 class="impx-text-white">Our Location</h4>
-								<p class="impx-text-large impx-text-light">Oculorum, inquit Plato, est in nobis sensus
-									acerrimus,
-									quibus sapientiam non cernimus non semper inquam At enim sequor utilitatem
-									praetermissum in
-									Stoicis?</p>
-								<!-- Location End -->
-							</div>
 
 							<div data-uk-grid class="uk-padding-remove-bottom">
 								<!-- Address -->

@@ -69,54 +69,58 @@
     <div class=" uk-padding uk-padding-remove-horizontal">
         <div class="uk-container">
             <div data-uk-grid>
-                <!-- INFORMATION -->
+                <!-- content -->
                 <div class="uk-width-3-3@xl uk-width-3-3@l uk-width-3-3@m uk-width-3-3@s uk-margin-small-top">
                     <div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
-                        <div class="uk-position-relative uk-visible-toggle">
-                            <h4 class="uk-margin-medium-bottom"><span>Contact Us</span></h4>
-                            <ul class="uk-child-width-1-1@xl uk-child-width-1-1@l uk-child-width-1-1@m uk-child-width-1-1@s data-uk-grid uk-grid-match uk-margin-large-bottom"
-                                data-uk-grid>
-                                <li>
-                                    <!-- First name -->
-                                    <div class="uk-width-1-2@s">
-                                        <label class="uk-form-label uk-text-bold" for="form-stacked-text">First
-                                            name</label>
-                                        <div class="uk-form-controls">
-                                            <input class="uk-input uk-form-width-medium" id="form-stacked-text"
-                                                type="text" placeholder="Your name..." required>
+                        <form action="" method="post">
+                            <div class="uk-position-relative uk-visible-toggle">
+                                <h4 class="uk-margin-medium-bottom"><span>Contact Us</span></h4>
+                                <ul class="uk-child-width-1-1@xl uk-child-width-1-1@l uk-child-width-1-1@m uk-child-width-1-1@s data-uk-grid uk-grid-match uk-margin-large-bottom"
+                                    data-uk-grid>
+                                    <li>
+                                        <!-- Your name -->
+                                        <div class="uk-width-1-2@s">
+                                            <label class="uk-form-label uk-text-bold" for="form-stacked-text">Your
+                                                name</label>
+                                            <div class="uk-form-controls">
+                                                <input class="uk-input uk-form-width-medium" id="form-stacked-text"
+                                                    type="text" placeholder="Your name..." required>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- Subject -->
-                                    <div class="uk-width-1-2@s">
-                                        <label class="uk-form-label uk-text-bold"
-                                            for="form-stacked-text">Subject</label>
-                                        <div class="uk-form-controls">
-                                            <input class="uk-input uk-form-width-medium" id="form-stacked-text"
-                                                type="text" placeholder="Subject..." required>
+                                        <!-- Subject -->
+                                        <div class="uk-width-1-2@s">
+                                            <label class="uk-form-label uk-text-bold"
+                                                for="form-stacked-text">Subject</label>
+                                            <div class="uk-form-controls">
+                                                <input class="uk-input uk-form-width-medium" id="form-stacked-text"
+                                                    type="text" placeholder="Subject..." required>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <br>
-                                    <!-- Email -->
-                                    <div class="uk-width">
-                                        <label class="uk-form-label uk-text-bold" for="form-stacked-text">Email</label>
-                                        <div class="uk-form-controls">
-                                            <input class="uk-input uk-form-width-medium" id="form-stacked-text"
-                                                type="text" placeholder="Your email..." required>
+                                        <br>
+                                        <!-- Email -->
+                                        <div class="uk-width">
+                                            <label class="uk-form-label uk-text-bold"
+                                                for="form-stacked-text">Email</label>
+                                            <div class="uk-form-controls">
+                                                <input class="uk-input uk-form-width-medium" id="form-stacked-text"
+                                                    type="email" placeholder="Your email..." required>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- Email -->
-                                    <div class="uk-width">
-                                        <label class="uk-form-label uk-text-bold" for="form-stacked-text">Email</label>
-                                        <div class="uk-form-controls">
-                                            <textarea class="uk-textarea" rows="5" placeholder="Your message..."
-                                                aria-label="Textarea"></textarea>
+                                        <!-- Email -->
+                                        <div class="uk-width">
+                                            <label class="uk-form-label uk-text-bold"
+                                                for="form-stacked-text">Message</label>
+                                            <div class="uk-form-controls">
+                                                <textarea class="uk-textarea" rows="5" placeholder="Your message..."
+                                                    aria-label="Textarea" required></textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <button class="uk-button uk-button-primary uk-border-rounded" type="button"><strong>Send
-                                    Message</strong></button>
-                        </div>
+                                    </li>
+                                </ul>
+                                <button class="uk-button uk-button-primary uk-border-rounded" type="submit"><strong>Send
+                                        Message</strong></button>
+                            </div>
+                        </form>
                     </div>
                     <br>
 
@@ -130,7 +134,9 @@
         </div>
     </div>
 
-
+    <!-- CONTACT INFO -->
+    <?php include './components/contactInfo.html'; ?>
+    <!-- CONTACT INFO END -->
     <!-- FOOTER -->
     <?php include './components/footer.html'; ?>
     <!-- FOOTER END -->
