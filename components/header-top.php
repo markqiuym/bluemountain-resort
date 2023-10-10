@@ -82,11 +82,17 @@ session_start();
 <div id="modal-example" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">
         <h2 class="uk-modal-title">Information</h2>
-        <p><strong>You have to login or Register before booking!</strong></p>
+        <p><strong>To make a booking, please login or register!</strong></p>
         <p class="uk-text-right">
-            <button class="uk-button uk-button-default uk-modal-close" type="button"><strong>Cancel</strong></button>
-            <button class="uk-button uk-button-primary" type="button" onclick="location.href='login.php'">
-                <strong>login</strong>
+            <button class="uk-button uk-button-default uk-modal-close uk-border-rounded"
+                type="button"><strong>Cancel</strong></button>
+            <button class="uk-button uk-button-primary uk-border-rounded" type="button"
+                onclick="location.href='login.php'">
+                <strong>&nbsp;Login&nbsp;</strong>
+            </button>
+            <button class="uk-button uk-button-primary uk-border-rounded" type="button"
+                onclick="location.href='signup.php'">
+                <strong>Register</strong>
             </button>
         </p>
     </div>

@@ -61,7 +61,7 @@
 											<!-- Slideshow Item #1 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-center">
-												<img src="images/slideshow/slide-1.jpg" alt=""
+												<img src="images/slideshow/full-slide-1.jpg" alt=""
 													data-uk-cover="height:319px">
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
@@ -74,10 +74,10 @@
 														</div>
 														<h1
 															class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-left">
-															Blue Mountain Resort</h1>
+															Mountains Resort</h1>
 														<p
 															class="impx-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">
-															Responsive HTML Template</p>
+															Thrill Seeker's Paradise</p>
 													</div>
 												</div>
 											</div>
@@ -194,16 +194,16 @@
 														</div>
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">
-															In-house Restaurant</h1>
+															Our Beatiful Mountain Range</h1>
 														<p
 															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
-															The Delicious Foods</p>
+															Enjoy the View</p>
 													</div>
 												</div>
 											</div>
 										</li><!-- Slideshow Item #6 End -->
 										<li>
-											<!-- Slideshow Item #6 -->
+											<!-- Slideshow Item #7 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-center">
 												<img src="images/slideshow/full-slide-7.jpg" alt="" data-uk-cover>
@@ -218,14 +218,14 @@
 														</div>
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">
-															In-house Restaurant</h1>
+															Ancient Mountain Peaks</h1>
 														<p
 															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
-															The Delicious Foods</p>
+															Mountain Climber's Delight</p>
 													</div>
 												</div>
 											</div>
-										</li><!-- Slideshow Item #6 End -->
+										</li><!-- Slideshow Item #7 End -->
 									</ul>
 
 									<!-- Slideshow Nav -->

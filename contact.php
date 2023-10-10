@@ -72,7 +72,7 @@
                 <!-- content -->
                 <div class="uk-width-3-3@xl uk-width-3-3@l uk-width-3-3@m uk-width-3-3@s uk-margin-small-top">
                     <div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
-                        <form action="" method="post">
+                        <form action="" method="post" onsubmit="return check()">
                             <div class="uk-position-relative uk-visible-toggle">
                                 <h4 class="uk-margin-medium-bottom"><span>Contact Us</span></h4>
                                 <ul class="uk-child-width-1-1@xl uk-child-width-1-1@l uk-child-width-1-1@m uk-child-width-1-1@s data-uk-grid uk-grid-match uk-margin-large-bottom"
@@ -142,6 +142,13 @@
     <!-- FOOTER END -->
 
     <!-- Javascript -->
+    <script>
+
+        function check() {
+            var name = document.getElementById("form-stacked-text").value;
+            alert("Your enquiry has been forwarded, Thank you " + name + "!")
+        }
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>

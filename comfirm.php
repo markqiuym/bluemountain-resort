@@ -8,6 +8,7 @@ if (isset($_POST['arrivalDate'])) {
 	$price = $_POST['price'];
 	$image = $_POST['image'];
 	$roomNum = $_POST['roomNum'];
+
 	// echo ($image);
 
 	$timestamp1 = strtotime($arrivaldate);
@@ -23,7 +24,7 @@ if (isset($_POST['arrivalDate'])) {
 		$nightNum = $days_difference - 1;
 		$total = $roomNum * $price * ($days_difference - 1);
 	}
-
+	$ttlWithTax = $total + $total * 0.1;
 }
 ?>
 
@@ -318,7 +319,7 @@ if (isset($_POST['arrivalDate'])) {
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-												included
+												10%
 											</h6>
 										</div>
 									</div>
@@ -331,7 +332,7 @@ if (isset($_POST['arrivalDate'])) {
 												&nbsp&nbsp&nbsp&nbsp&nbsp
 												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 												AU$
-												<?php echo ($total) ?> .00
+												<?php echo ($ttlWithTax) ?> .00
 											</h4>
 										</div>
 									</div>
@@ -375,7 +376,8 @@ if (isset($_POST['arrivalDate'])) {
 	<script>
 
 		function check() {
-			alert("The room has been booked successfully!")
+			var name = document.getElementById("form-stacked-text").value;
+			alert("Your room has been booked successfully, Thank you " + name + " for choosing mountains resort, enjoy your stay!")
 		}
 	</script>
 	<script src="js/jquery.js"></script>

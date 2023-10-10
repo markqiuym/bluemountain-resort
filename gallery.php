@@ -238,6 +238,7 @@
 	<script src="js/jquery.gmap.min.js"></script>
 	<script src="js/jquery.parallax.min.js"></script>
 	<script src="js/template-config.js"></script>
+
 </body>
 
 
