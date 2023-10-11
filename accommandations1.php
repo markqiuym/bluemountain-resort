@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <head>
 
 	<!-- Standard Meta -->
@@ -148,7 +146,7 @@
 								<!-- room item #3 -->
 								<div class="uk-card uk-card-default">
 									<div class="uk-card-media-top uk-position-relative">
-										<img src="images/rooms/room-2.jpg" alt="">
+										<img src="images/rooms/room-3.jpg" alt="">
 										<div class="impx-overlay light overlay-squared padding-xwide"></div>
 									</div>
 									<div class="uk-card-body impx-padding-medium">
@@ -210,11 +208,11 @@
 
 					<!-- rooms paging -->
 					<ul class="uk-pagination uk-flex-center impx-pagination uk-margin-remove-top" data-uk-margin>
-						<!-- <li><a href="#"><span data-uk-pagination-previous></span></a></li> -->
-						<li class="uk-active"><a href="accommandations.php">1</a></li>
-						<li><a href="accommandations1.php">2</a></li>
+						<li><a href="accommandations.php"><span data-uk-pagination-previous></span></a></li>
+						<li><a href="accommandations.php">1</a></li>
+						<li class="uk-active"><a href="accommandations1.php">2</a></li>
 						<!-- <li><a href="#">3</a></li> -->
-						<li><a href="accommandations1.php"><span data-uk-pagination-next></span></a></li>
+						<!-- <li><a href="accommandations.php"><span data-uk-pagination-next></span></a></li> -->
 					</ul>
 					<!-- rooms paging end -->
 				</div>

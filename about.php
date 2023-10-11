@@ -162,7 +162,11 @@
 					<div class="uk-card uk-card-default uk-card-small uk-margin-bottom">
 						<div class="uk-card-body">
 							<!-- image content -->
-							<img src="images/about-img-2.jpg" alt="">
+							<!-- <img src="images/about-img-2.jpg" alt=""> -->
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.5530750691137!2d151.20503687573526!3d-33.87540711940108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3dad942b01%3A0xb9dd66c4a6ea3a60!2s343%20Pitt%20St%2C%20Sydney%20NSW%202000!5e0!3m2!1sen!2sau!4v1696986883600!5m2!1sen!2sau"
+								width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</div>
 				</div>
@@ -330,6 +334,7 @@
 	<script src="js/jquery.parallax.min.js"></script>
 	<script src="js/date-config.js"></script>
 	<script src="js/template-config.js"></script>
+
 </body>
 
 
