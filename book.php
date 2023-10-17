@@ -129,10 +129,14 @@
 								<select class="uk-select uk-border-rounded" id="form-rooms-select" name="roomsTpye"
 									onchange="myFunction()">
 									<option value="">Please select...</option>
-									<option value="Single Room">Single</option>
-									<option value="Double Room">Double</option>
-									<option value="Primier Room">Primier</option>
-									<option value="Deluxe Room">Deluxe</option>
+									<option value="Single RoomA">Single A</option>
+									<option value="Single RoomB">Single B</option>
+									<option value="Double RoomA">Double A</option>
+									<option value="Double RoomB">Double B</option>
+									<option value="Primier RoomA">Primier A</option>
+									<option value="Primier RoomB">Primier B</option>
+									<option value="Deluxe RoomA">Deluxe A</option>
+									<option value="Deluxe RoomA">Deluxe B</option>
 								</select>
 							</div>
 							<span id="display" name="price"></span>
@@ -173,22 +177,42 @@
 	<script>
 		function myFunction() {
 			var rooms = document.getElementById("form-rooms-select").value;
-			if (rooms === 'Single Room') {
+			if (rooms === 'Single RoomA') {
 				document.getElementById("display").innerHTML = "The price is $50/night";
 				document.getElementById("price").value = 50;
 				document.getElementById("image").value = "images/rooms/room-1.jpg";
 			}
-			if (rooms === 'Double Room') {
+			if (rooms === 'Single RoomB') {
+				document.getElementById("display").innerHTML = "The price is $50/night";
+				document.getElementById("price").value = 50;
+				document.getElementById("image").value = "images/rooms/room-1.jpg";
+			}
+			if (rooms === 'Double RoomA') {
 				document.getElementById("display").innerHTML = "The price is $80/night";
 				document.getElementById("price").value = 80;
 				document.getElementById("image").value = "images/rooms/room-2.jpg";
 			}
-			if (rooms === 'Primier Room') {
+			if (rooms === 'Double RoomB') {
+				document.getElementById("display").innerHTML = "The price is $80/night";
+				document.getElementById("price").value = 80;
+				document.getElementById("image").value = "images/rooms/room-2.jpg";
+			}
+			if (rooms === 'Primier RoomA') {
 				document.getElementById("display").innerHTML = "The price is $100/night";
 				document.getElementById("price").value = 100;
 				document.getElementById("image").value = "images/rooms/room-3.jpg";
 			}
-			if (rooms === 'Deluxe Room') {
+			if (rooms === 'Primier RoomB') {
+				document.getElementById("display").innerHTML = "The price is $100/night";
+				document.getElementById("price").value = 100;
+				document.getElementById("image").value = "images/rooms/room-3.jpg";
+			}
+			if (rooms === 'Deluxe RoomA') {
+				document.getElementById("display").innerHTML = "The price is $150/night";
+				document.getElementById("price").value = 150;
+				document.getElementById("image").value = "images/rooms/room-4.jpg";
+			}
+			if (rooms === 'Deluxe RoomB') {
 				document.getElementById("display").innerHTML = "The price is $150/night";
 				document.getElementById("price").value = 150;
 				document.getElementById("image").value = "images/rooms/room-4.jpg";

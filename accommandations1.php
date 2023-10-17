@@ -90,8 +90,8 @@
 										<div class="impx-overlay light overlay-squared padding-xwide"></div>
 									</div>
 									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Single Room</h4>
-										<span class="uk-label bg-color-aqua">from $50/night</span>
+										<h4 class="uk-card-title uk-margin-remove-bottom">Premiere Room A</h4>
+										<span class="uk-label bg-color-aqua">from $100/night</span>
 										<ul class="uk-list room-fac">
 											<li><span class="impx-text-aqua"
 													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
@@ -120,8 +120,8 @@
 										<div class="impx-overlay light overlay-squared padding-xwide"></div>
 									</div>
 									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Double Room</h4>
-										<span class="uk-label bg-color-aqua">from $80/night</span>
+										<h4 class="uk-card-title uk-margin-remove-bottom">Premiere Room B</h4>
+										<span class="uk-label bg-color-aqua">from $100/night</span>
 										<ul class="uk-list room-fac">
 											<li><span class="impx-text-aqua"
 													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
@@ -150,8 +150,8 @@
 										<div class="impx-overlay light overlay-squared padding-xwide"></div>
 									</div>
 									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Premiere Room</h4>
-										<span class="uk-label bg-color-aqua">from $100/night</span>
+										<h4 class="uk-card-title uk-margin-remove-bottom">Deluxe Room A</h4>
+										<span class="uk-label bg-color-aqua">from $150/night</span>
 										<ul class="uk-list room-fac">
 											<li><span class="impx-text-aqua"
 													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
@@ -180,7 +180,7 @@
 										<div class="impx-overlay light overlay-squared padding-xwide"></div>
 									</div>
 									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Deluxe Room</h4>
+										<h4 class="uk-card-title uk-margin-remove-bottom">Deluxe Room B</h4>
 										<span class="uk-label bg-color-aqua">from $150/night</span>
 										<ul class="uk-list room-fac">
 											<li><span class="impx-text-aqua"

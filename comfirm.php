@@ -113,7 +113,7 @@ if (isset($_POST['arrivalDate'])) {
 										<!-- First name -->
 										<div class="uk-width-1-2@s">
 											<label class="uk-form-label uk-text-bold" for="form-stacked-text">First
-												name</label>
+												name<strong>*</strong></label>
 											<div class="uk-form-controls">
 												<input class="uk-input uk-form-width-medium" id="form-stacked-text"
 													type="text" placeholder="(e.g. John)" required>
@@ -122,7 +122,7 @@ if (isset($_POST['arrivalDate'])) {
 										<!-- Surname -->
 										<div class="uk-width-1-2@s">
 											<label class="uk-form-label uk-text-bold"
-												for="form-stacked-text">Surname</label>
+												for="form-stacked-text">Surname<strong>*</strong></label>
 											<div class="uk-form-controls">
 												<input class="uk-input uk-form-width-medium" id="form-stacked-text"
 													type="text" placeholder="(e.g. Smith)" required>
@@ -132,7 +132,7 @@ if (isset($_POST['arrivalDate'])) {
 										<!-- Email -->
 										<div class="uk-width">
 											<label class="uk-form-label uk-text-bold"
-												for="form-stacked-text">Email</label>
+												for="form-stacked-text">Email<strong>*</strong></label>
 											<div class="uk-form-controls">
 												<input class="uk-input uk-form-width-medium" id="form-stacked-text"
 													type="text" placeholder="Email for confirmation" required>
