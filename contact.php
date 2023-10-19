@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Properties -->
-    <title>Sativa - Hotel &amp; Resort HTML Template</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Contact Us - Mountain Resort</title>
+    <link rel="shortcut icon" href="images/logo/logo-black.svg" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
     <!-- Google Fonts -->
@@ -67,7 +67,7 @@
     <!-- HERO IMAGE END -->
     <br>
     <div class=" uk-padding uk-padding-remove-horizontal">
-        <div class="uk-container">
+        <div class="uk-container" style="width: 50rem;">
             <div data-uk-grid>
                 <!-- content -->
                 <div class="uk-width-3-3@xl uk-width-3-3@l uk-width-3-3@m uk-width-3-3@s uk-margin-small-top">

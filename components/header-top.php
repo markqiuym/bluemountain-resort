@@ -45,7 +45,7 @@ session_start();
 
                                 <a href="logout.php" class="uk-navbar-nav-subtitle">
 
-                                    <div style="font-size: 1.5rem;color: #05f52d">
+                                    <div style="font-size: 1.5rem;color: white">
                                         <span uk-icon="user"></span>
                                         Welcome
                                         <?php echo $_SESSION["username"] ?>

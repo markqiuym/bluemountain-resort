@@ -39,7 +39,7 @@ if (isset($_POST['arrivalDate'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Properties -->
-	<title>Rooms - Sativa</title>
+	<title>Confirmation</title>
 	<link rel="shortcut icon" href="images/logo/logo-black.svg" type="image/x-icon">
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 

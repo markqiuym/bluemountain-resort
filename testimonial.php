@@ -9,8 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Properties -->
-	<title>Testimonial - Sativa</title>
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<title>Testimonial - Mountain Resort</title>
+	<link rel="shortcut icon" href="images/logo/logo-black.svg" type="image/x-icon">
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
 	<!-- Google Fonts -->
