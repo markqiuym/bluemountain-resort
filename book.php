@@ -127,7 +127,7 @@ if (isset($_GET['type'])) {
 								</select>
 							</div>
 						</div>
-						<input type="hidden" name="roomsTpye" value="<?php echo ($roomsType) ?>">
+						<input type="hidden" name="roomsTpye" id="form-rooms-select" value="<?php echo ($roomsType) ?>">
 						<input type="hidden" name="price" value="<?php echo ($price) ?>">
 						<input type="hidden" name="image" value="<?php echo ($image) ?>">
 						<!-- <div class="uk-margin">
