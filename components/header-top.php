@@ -21,7 +21,7 @@ session_start();
                     if (isset($_SESSION["username"])) {
                         ?>
                         <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
-                            onclick="location.href = 'book.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
+                            onclick="location.href = 'accommandations.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
                         <?php
                     } else {
                         ?>

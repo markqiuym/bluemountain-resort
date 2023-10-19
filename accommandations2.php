@@ -80,129 +80,123 @@
 				<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-margin-small-top">
 					<div class="uk-position-relative uk-visible-toggle">
 						<!-- Rooms List -->
-						<form action="comfirm.php" method="GET">
-							<ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s data-uk-grid uk-grid-match uk-margin-large-bottom"
-								data-uk-grid>
-								<li>
-									<!-- room item #1 -->
-									<div class="uk-card uk-card-default uk-card-medium">
-										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-1.jpg" alt="">
-											<div class="impx-overlay light overlay-squared padding-xwide"></div>
-										</div>
-										<div class="uk-card-body impx-padding-medium">
-											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet A</h4>
-											<span class="uk-label bg-color-aqua">from $300/night</span>
-											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
-											</ul>
+						<ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s data-uk-grid uk-grid-match uk-margin-large-bottom"
+							data-uk-grid>
+							<li>
+								<!-- room item #1 -->
+								<div class="uk-card uk-card-default uk-card-medium">
+									<div class="uk-card-media-top uk-position-relative">
+										<img src="images/rooms/room-1.jpg" alt="">
+										<div class="impx-overlay light overlay-squared padding-xwide"></div>
+									</div>
+									<div class="uk-card-body impx-padding-medium">
+										<h4 class="uk-card-title uk-margin-remove-bottom">The nest A</h4>
+										<span class="uk-label bg-color-aqua">from $150/night</span>
+										<ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
+												accommodation. Services include: accommodation only. Extras on request.
+											</li>
+										</ul>
 
-											<div
-												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-												<a href="book.php?type=Chalet A&price=300&image=images/rooms/room-1.jpg"
-													class="uk-button uk-button-text impx-text-aqua">BOOK
-													NOW
-													&raquo;</a>
-											</div>
+										<div
+											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+											<a href="book.php?type=The nest A&price=150&image=images/rooms/room-1.jpg"
+												class="uk-button uk-button-text impx-text-aqua">BOOK
+												NOW
+												&raquo;</a>
 										</div>
 									</div>
-								</li><!-- room item #1 end -->
-								<li>
-									<!-- room item #2 -->
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-2.jpg" alt="">
-											<div class="impx-overlay light overlay-squared padding-xwide"></div>
-										</div>
-										<div class="uk-card-body impx-padding-medium">
-											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet B</h4>
-											<span class="uk-label bg-color-aqua">from $300/night</span>
-											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
-											</ul>
+								</div>
+							</li><!-- room item #1 end -->
+							<li>
+								<!-- room item #2 -->
+								<div class="uk-card uk-card-default">
+									<div class="uk-card-media-top uk-position-relative">
+										<img src="images/rooms/room-2.jpg" alt="">
+										<div class="impx-overlay light overlay-squared padding-xwide"></div>
+									</div>
+									<div class="uk-card-body impx-padding-medium">
+										<h4 class="uk-card-title uk-margin-remove-bottom">The nest B</h4>
+										<span class="uk-label bg-color-aqua">from $150/night</span>
+										<ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
+												accommodation. Services include: accommodation only. Extras on request.
+											</li>
+										</ul>
 
-											<div
-												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-												<a href="book.php?type=Chalet B&price=300&image=images/rooms/room-2.jpg"
-													class="uk-button uk-button-text impx-text-aqua">BOOK
-													NOW
-													&raquo;</a>
-											</div>
+										<div
+											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+											<a href="book.php?type=The nest B&price=150&image=images/rooms/room-1.jpg"
+												class="uk-button uk-button-text impx-text-aqua">BOOK
+												NOW
+												&raquo;</a>
 										</div>
 									</div>
-								</li><!-- room item #2 end -->
-								<li>
-									<!-- room item #3 -->
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-3.jpg" alt="">
-											<div class="impx-overlay light overlay-squared padding-xwide"></div>
-										</div>
-										<div class="uk-card-body impx-padding-medium">
-											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet C</h4>
-											<span class="uk-label bg-color-aqua">from $300/night</span>
-											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
-											</ul>
+								</div>
+							</li><!-- room item #2 end -->
+							<li>
+								<!-- room item #3 -->
+								<div class="uk-card uk-card-default">
+									<div class="uk-card-media-top uk-position-relative">
+										<img src="images/rooms/room-3.jpg" alt="">
+										<div class="impx-overlay light overlay-squared padding-xwide"></div>
+									</div>
+									<div class="uk-card-body impx-padding-medium">
+										<h4 class="uk-card-title uk-margin-remove-bottom">The nest C</h4>
+										<span class="uk-label bg-color-aqua">from $150/night</span>
+										<ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
+												accommodation. Services include: accommodation only. Extras on request.
+											</li>
+										</ul>
 
-											<div
-												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-												<a href="book.php?type=Chalet C&price=300&image=images/rooms/room-3.jpg"
-													class="uk-button uk-button-text impx-text-aqua">BOOK
-													NOW
-													&raquo;</a>
-											</div>
+										<div
+											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+											<a href="book.php?type=The nest C&price=150&image=images/rooms/room-1.jpg"
+												class="uk-button uk-button-text impx-text-aqua">BOOK
+												NOW
+												&raquo;</a>
 										</div>
 									</div>
-								</li><!-- room item #3 end -->
-								<li>
-									<!-- room item #4 -->
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-4.jpg" alt="">
-											<div class="impx-overlay light overlay-squared padding-xwide"></div>
-										</div>
-										<div class="uk-card-body impx-padding-medium">
-											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet D</h4>
-											<span class="uk-label bg-color-aqua">from $300/night</span>
-											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
-											</ul>
+								</div>
+							</li><!-- room item #3 end -->
+							<li>
+								<!-- room item #4 -->
+								<div class="uk-card uk-card-default">
+									<div class="uk-card-media-top uk-position-relative">
+										<img src="images/rooms/room-4.jpg" alt="">
+										<div class="impx-overlay light overlay-squared padding-xwide"></div>
+									</div>
+									<div class="uk-card-body impx-padding-medium">
+										<h4 class="uk-card-title uk-margin-remove-bottom">The nest D</h4>
+										<span class="uk-label bg-color-aqua">from $150/night</span>
+										<ul class="uk-list room-fac">
+											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
+												accommodation. Services include: accommodation only. Extras on request.
+											</li>
+										</ul>
 
-											<div
-												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-												<a href="book.php?type=Chalet D&price=300&image=images/rooms/room-4.jpg"
-													class="uk-button uk-button-text impx-text-aqua">BOOK
-													NOW
-													&raquo;</a>
-											</div>
+										<div
+											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+											<a href="book.php?type=The nest D&price=150&image=images/rooms/room-1.jpg"
+												class="uk-button uk-button-text impx-text-aqua">BOOK
+												NOW
+												&raquo;</a>
 										</div>
 									</div>
-								</li><!-- room item #4 end -->
-							</ul>
-							<!-- rooms list end -->
-						</form>
+								</div>
+							</li><!-- room item #4 end -->
+						</ul>
+						<!-- rooms list end -->
 					</div>
 
 					<!-- rooms paging -->
 					<ul class="uk-pagination uk-flex-center impx-pagination uk-margin-remove-top" data-uk-margin>
-						<li><a href="accommandations.php"><span data-uk-pagination-previous></span></a></li>
+						<li><a href="accommandations1.php"><span data-uk-pagination-previous></span></a></li>
 						<li><a href="accommandations.php">1</a></li>
-						<li class="uk-active"><a href="accommandations1.php">2</a></li>
-						<li><a href="accommandations2.php">3</a></li>
-						<li><a href="accommandations2.php"><span data-uk-pagination-next></span></a></li>
+						<li><a href="accommandations1.php">2</a></li>
+						<li class="uk-active"><a href="accommandations2.php">3</a></li>
+						<!-- <li><a href="accommandations.php"><span data-uk-pagination-next></span></a></li> -->
 					</ul>
 					<!-- rooms paging end -->
 				</div>

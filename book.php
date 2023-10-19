@@ -1,3 +1,10 @@
+<?php
+if (isset($_GET['type'])) {
+	$roomsType = $_GET['type'];
+	$price = $_GET['price'];
+	$image = $_GET['image'];
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -9,8 +16,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Properties -->
-	<title>Rooms - Sativa</title>
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<title>Booking</title>
+	<link rel="shortcut icon" href="images/logo/logo-black.svg">
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
 	<!-- Google Fonts -->
@@ -77,15 +84,13 @@
 					<h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
 							Form</span></h6>
 					<form action="comfirm.php" method="POST">
-						<input type="hidden" name="price" id="price">
-						<input type="hidden" name="image" id="image" value="44">
 						<div class="uk-margin">
 							<div class="uk-form-controls">
 								<div class="uk-inline">
 									<label class="uk-form-label">Arrival</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
 									<input class="uk-input booking-arrival uk-border-rounded" type="text"
-										name="arrivalDate" id="arrivalDate" placeholder="m/dd/yyyy">
+										name="arrivalDate" id="arrivalDate" placeholder="mm/dd/yyyy">
 								</div>
 							</div>
 						</div>
@@ -95,7 +100,7 @@
 									<label class="uk-form-label">Departure</label>
 									<span class="uk-form-icon" data-uk-icon="icon: calendar"></span>
 									<input class="uk-input booking-departure uk-border-rounded" name="departureDate"
-										id="departureDate" type="text" placeholder="m/dd/yyyy">
+										id="departureDate" type="text" placeholder="mm/dd/yyyy">
 								</div>
 							</div>
 						</div>
@@ -122,7 +127,10 @@
 								</select>
 							</div>
 						</div>
-						<div class="uk-margin">
+						<input type="hidden" name="roomsTpye" value="<?php echo ($roomsType) ?>">
+						<input type="hidden" name="price" value="<?php echo ($price) ?>">
+						<input type="hidden" name="image" value="<?php echo ($image) ?>">
+						<!-- <div class="uk-margin">
 							<div class="uk-form-controls uk-position-relative">
 								<label class="uk-form-label" for="form-rooms-select">Room Type</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: album"></span>
@@ -140,11 +148,11 @@
 								</select>
 							</div>
 							<span id="display" name="price"></span>
-						</div>
+						</div> -->
 						<div class="uk-button uk-width-1-1">
 							<label class="uk-form-label empty-label">&nbsp;</label>
 							<button class="uk-button uk-width-1-3" onclick="return validation()">Book
-								Now!</button>
+								Now</button>
 							<button class="uk-button uk-width-1-3"
 								onclick="window.location.href = 'accommandations.php';">Close</button>
 						</div>

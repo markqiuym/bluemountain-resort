@@ -40,7 +40,7 @@ if (isset($_POST['arrivalDate'])) {
 
 	<!-- Site Properties -->
 	<title>Rooms - Sativa</title>
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/logo/logo-black.svg" type="image/x-icon">
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
 	<!-- Google Fonts -->

@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Properties -->
-	<title>Rooms - Sativa</title>
+	<title>Rooms - Mountains Resort</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
@@ -82,130 +82,133 @@
 				<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s uk-margin-small-top">
 					<div class="uk-position-relative uk-visible-toggle">
 						<!-- Rooms List -->
-						<ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s data-uk-grid uk-grid-match uk-margin-large-bottom"
-							data-uk-grid>
-							<li>
-								<!-- room item #1 -->
-								<div class="uk-card uk-card-default uk-card-medium">
-									<div class="uk-card-media-top uk-position-relative">
-										<img src="images/rooms/room-1.jpg" alt="">
-										<div class="impx-overlay light overlay-squared padding-xwide"></div>
-									</div>
-									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Single Room A</h4>
-										<span class="uk-label bg-color-aqua">from $50/night</span>
-										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
-												timore</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Oculis Compensabatur
-											</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Dolorisnos veriusque
-												nihil</li>
-										</ul>
+						<form action="comfirm.php" method="GET">
+							<ul class="uk-child-width-1-2@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s data-uk-grid uk-grid-match uk-margin-large-bottom"
+								data-uk-grid>
+								<li>
+									<!-- room item #1 -->
+									<div class="uk-card uk-card-default uk-card-medium">
+										<div class="uk-card-media-top uk-position-relative">
+											<img src="images/rooms/room-1.jpg" alt="">
+											<div class="impx-overlay light overlay-squared padding-xwide"></div>
+										</div>
+										<div class="uk-card-body impx-padding-medium">
+											<h4 class="uk-card-title uk-margin-remove-bottom">Villa A</h4>
+											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<ul class="uk-list room-fac">
+												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
+													accommodation.Services include:daily room service, breakfast, lunch
+													and
+													dinner at choic of restaurant. Onrequest all meals from our menu can
+													be
+													specially prepared by a chef at the villa. Access to all leisure
+													facilities.
 
-										<!-- <div
-											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-											<a href="room-detail.html"
-												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div> -->
-									</div>
-								</div>
-							</li><!-- room item #1 end -->
-							<li>
-								<!-- room item #2 -->
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top uk-position-relative">
-										<img src="images/rooms/room-2.jpg" alt="">
-										<div class="impx-overlay light overlay-squared padding-xwide"></div>
-									</div>
-									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">Single Room B</h4>
-										<span class="uk-label bg-color-aqua">from $50/night</span>
-										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
-												timore</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Oculis Compensabatur
-											</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Dolorisnos veriusque
-												nihil</li>
-										</ul>
+												</li>
+											</ul>
 
-										<!-- <div
-											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-											<a href="room-detail.html"
-												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div> -->
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+										</div>
 									</div>
-								</div>
-							</li><!-- room item #2 end -->
-							<li>
-								<!-- room item #3 -->
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top uk-position-relative">
-										<img src="images/rooms/room-2.jpg" alt="">
-										<div class="impx-overlay light overlay-squared padding-xwide"></div>
-									</div>
-									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">double Room A</h4>
-										<span class="uk-label bg-color-aqua">from $80/night</span>
-										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
-												timore</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Oculis Compensabatur
-											</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Dolorisnos veriusque
-												nihil</li>
-										</ul>
+								</li><!-- room item #1 end -->
+								<li>
+									<!-- room item #2 -->
+									<div class="uk-card uk-card-default">
+										<div class="uk-card-media-top uk-position-relative">
+											<img src="images/rooms/room-2.jpg" alt="">
+											<div class="impx-overlay light overlay-squared padding-xwide"></div>
+										</div>
+										<div class="uk-card-body impx-padding-medium">
+											<h4 class="uk-card-title uk-margin-remove-bottom">Villa B</h4>
+											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<ul class="uk-list room-fac">
+												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
+													accommodation.Services include:daily room service, breakfast, lunch
+													and
+													dinner at choic of restaurant. Onrequest all meals from our menu can
+													be
+													specially prepared by a chef at the villa. Access to all leisure
+													facilities.</li>
+											</ul>
 
-										<!-- <div
-											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-											<a href="room-detail.html"
-												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div> -->
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+										</div>
 									</div>
-								</div>
-							</li><!-- room item #3 end -->
-							<li>
-								<!-- room item #4 -->
-								<div class="uk-card uk-card-default">
-									<div class="uk-card-media-top uk-position-relative">
-										<img src="images/rooms/room-4.jpg" alt="">
-										<div class="impx-overlay light overlay-squared padding-xwide"></div>
-									</div>
-									<div class="uk-card-body impx-padding-medium">
-										<h4 class="uk-card-title uk-margin-remove-bottom">double Room B</h4>
-										<span class="uk-label bg-color-aqua">from $80/night</span>
-										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Beatus in maximarum
-												timore</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Oculis Compensabatur
-											</li>
-											<li><span class="impx-text-aqua"
-													data-uk-icon="icon: check; ratio: 1;"></span> Dolorisnos veriusque
-												nihil</li>
-										</ul>
+								</li><!-- room item #2 end -->
+								<li>
+									<!-- room item #3 -->
+									<div class="uk-card uk-card-default">
+										<div class="uk-card-media-top uk-position-relative">
+											<img src="images/rooms/room-3.jpg" alt="">
+											<div class="impx-overlay light overlay-squared padding-xwide"></div>
+										</div>
+										<div class="uk-card-body impx-padding-medium">
+											<h4 class="uk-card-title uk-margin-remove-bottom">Villa C</h4>
+											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<ul class="uk-list room-fac">
+												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
+													accommodation.Services include:daily room service, breakfast, lunch
+													and
+													dinner at choic of restaurant. Onrequest all meals from our menu can
+													be
+													specially prepared by a chef at the villa. Access to all leisure
+													facilities.</li>
+											</ul>
 
-										<!-- <div
-											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-											<a href="room-detail.html"
-												class="uk-button uk-button-text impx-text-aqua">Read more &raquo;</a>
-										</div> -->
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+										</div>
+								</li><!-- room item #3 end -->
+								<li>
+									<!-- room item #4 -->
+									<div class="uk-card uk-card-default">
+										<div class="uk-card-media-top uk-position-relative">
+											<img src="images/rooms/room-4.jpg" alt="">
+											<div class="impx-overlay light overlay-squared padding-xwide"></div>
+										</div>
+										<div class="uk-card-body impx-padding-medium">
+											<h4 class="uk-card-title uk-margin-remove-bottom">Villa D</h4>
+											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<ul class="uk-list room-fac">
+												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
+													accommodation.Services include:daily room service, breakfast, lunch
+													and
+													dinner at choic of restaurant. Onrequest all meals from our menu can
+													be
+													specially prepared by a chef at the villa. Access to all leisure
+													facilities.</li>
+											</ul>
+
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+										</div>
 									</div>
-								</div>
-							</li><!-- room item #4 end -->
-						</ul>
-						<!-- rooms list end -->
+								</li><!-- room item #4 end -->
+							</ul>
+							<!-- rooms list end -->
+						</form>
 					</div>
 
 					<!-- rooms paging -->
@@ -213,7 +216,7 @@
 						<!-- <li><a href="#"><span data-uk-pagination-previous></span></a></li> -->
 						<li class="uk-active"><a href="accommandations.php">1</a></li>
 						<li><a href="accommandations1.php">2</a></li>
-						<!-- <li><a href="#">3</a></li> -->
+						<li><a href="accommandations2.php">3</a></li>
 						<li><a href="accommandations1.php"><span data-uk-pagination-next></span></a></li>
 					</ul>
 					<!-- rooms paging end -->
