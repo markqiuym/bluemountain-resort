@@ -44,10 +44,15 @@
       $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
       $count = mysqli_num_rows($result);
 
-
       if ($count == 1) {
          $_SESSION["username"] = $id;
-         header("location: index.php");
+         echo ($_GET['bookpg']);
+         if ($_GET['bookpg'] == 1) {
+            header("location: accommandations.php");
+         } else {
+            header("location: index.php");
+         }
+
       } else {
          echo '<script>alert("Worng useername or password")</script>';
       }

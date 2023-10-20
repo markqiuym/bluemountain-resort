@@ -42,8 +42,7 @@ if (isset($_GET['type'])) {
 	<!-- HEADER -->
 	<header id="impx-header">
 		<div>
-			<div class="impx-menu-wrapper style2"
-				data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+			<div class="impx-menu-wrapper style2">
 				<!-- Mobile Nav Start -->
 				<?php include './components/header-mobile.html'; ?>
 				<!-- Mobile Nav End -->
@@ -58,7 +57,7 @@ if (isset($_GET['type'])) {
 	<!-- HEADER END -->
 
 	<!-- PAGE HEADING -->
-	<div class="impx-page-heading uk-position-relative rooms" style="height: 8rem;">
+	<div class="impx-page-heading uk-position-relative rooms" style="height: 11rem;">
 		<div class="impx-overlay dark"></div>
 		<div class="uk-container">
 			<div class="uk-width-1-1">
@@ -124,6 +123,8 @@ if (isset($_GET['type'])) {
 									<option value="2">2</option>
 									<option value="3">3</option>
 									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
 								</select>
 							</div>
 						</div>
@@ -153,8 +154,8 @@ if (isset($_GET['type'])) {
 							<label class="uk-form-label empty-label">&nbsp;</label>
 							<button class="uk-button uk-width-1-3" onclick="return validation()">Book
 								Now</button>
-							<button class="uk-button uk-width-1-3"
-								onclick="window.location.href = 'accommandations.php';">Close</button>
+							<!-- <button class="uk-button uk-width-1-3"
+								onclick="window.location.href = 'accommandations.php';">Close</button> -->
 						</div>
 					</form>
 				</div>

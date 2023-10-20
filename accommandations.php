@@ -1,7 +1,16 @@
+<?php
+// session_start();
+
+// if (isset($_SESSION['username'])) {
+// 	$user_id = $_SESSION['username'];
+// 	echo "User ID: $user_id";
+// 	echo "<script>alert('User ID: $user_id')</script>";
+// } else {
+// 	echo "User ID not set in session.";
+// }
+// ?>
 <!DOCTYPE html>
 <html>
-
-
 
 <head>
 
@@ -106,14 +115,37 @@
 
 												</li>
 											</ul>
-
-											<div
+											<?php
+											if (isset($_SESSION["username"])) {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+														class="uk-button uk-button-text impx-text-aqua">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											} else {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+														class="uk-button uk-button-text impx-text-aqua"
+														uk-toggle="target: #modal-example">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											}
+											?>
+											<!-- <div
 												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
 													class="uk-button uk-button-text impx-text-aqua">BOOK
 													NOW
 													&raquo;</a>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</li><!-- room item #1 end -->
@@ -136,14 +168,37 @@
 													specially prepared by a chef at the villa. Access to all leisure
 													facilities.</li>
 											</ul>
-
-											<div
+											<?php
+											if (isset($_SESSION["username"])) {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
+														class="uk-button uk-button-text impx-text-aqua">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											} else {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
+														class="uk-button uk-button-text impx-text-aqua"
+														uk-toggle="target: #modal-example">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											}
+											?>
+											<!-- <div
 												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
 													class="uk-button uk-button-text impx-text-aqua">BOOK
 													NOW
 													&raquo;</a>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</li><!-- room item #2 end -->
@@ -166,14 +221,37 @@
 													specially prepared by a chef at the villa. Access to all leisure
 													facilities.</li>
 											</ul>
-
-											<div
+											<?php
+											if (isset($_SESSION["username"])) {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
+														class="uk-button uk-button-text impx-text-aqua">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											} else {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
+														class="uk-button uk-button-text impx-text-aqua"
+														uk-toggle="target: #modal-example">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											}
+											?>
+											<!-- <div
 												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
 													class="uk-button uk-button-text impx-text-aqua">BOOK
 													NOW
 													&raquo;</a>
-											</div>
+											</div> -->
 										</div>
 								</li><!-- room item #3 end -->
 								<li>
@@ -195,14 +273,37 @@
 													specially prepared by a chef at the villa. Access to all leisure
 													facilities.</li>
 											</ul>
-
-											<div
+											<?php
+											if (isset($_SESSION["username"])) {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
+														class="uk-button uk-button-text impx-text-aqua">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											} else {
+												?>
+												<div
+													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
+														class="uk-button uk-button-text impx-text-aqua"
+														uk-toggle="target: #modal-example">BOOK
+														NOW
+														&raquo;</a>
+												</div>
+												<?php
+											}
+											?>
+											<!-- <div
 												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
 													class="uk-button uk-button-text impx-text-aqua">BOOK
 													NOW
 													&raquo;</a>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</li><!-- room item #4 end -->
@@ -288,7 +389,25 @@
 		</div>
 	</div>
 	<!-- CONTENT END -->
-
+	<!-- This is the modal -->
+	<div id="modal-example" uk-modal>
+		<div class="uk-modal-dialog uk-modal-body">
+			<h2 class="uk-modal-title">Information</h2>
+			<p><strong>To make a booking, please login or register!</strong></p>
+			<p class="uk-text-right">
+				<button class="uk-button uk-button-default uk-modal-close uk-border-rounded"
+					type="button"><strong>Cancel</strong></button>
+				<button class="uk-button uk-button-primary uk-border-rounded" type="button"
+					onclick="location.href='login.php?type=VillaB'">
+					<strong>&nbsp;Login&nbsp;</strong>
+				</button>
+				<button class="uk-button uk-button-primary uk-border-rounded" type="button"
+					onclick="location.href='signup.php?bookpg=1'">
+					<strong>Register</strong>
+				</button>
+			</p>
+		</div>
+	</div>
 	<!-- CONTACT INFO -->
 	<?php include './components/contactInfo.html'; ?>
 	<!-- CONTACT INFO END -->

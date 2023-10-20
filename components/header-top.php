@@ -17,21 +17,22 @@ session_start();
             <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
                 <div class="impx-top-phone">
                     <!-- <p><i class="fa fa-phone"></i> Phone : +62 123456789</p> -->
-                    <?php
+                    <!-- <?php
                     if (isset($_SESSION["username"])) {
                         ?>
-                        <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                        <button type="button" class="uk-button  uk-button-small uk-border-rounded"
                             onclick="location.href = 'accommandations.php'">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
                         <?php
                     } else {
                         ?>
-                        <button type="button" class="uk-button uk-button-danger uk-button-small uk-border-rounded"
+                        <button type="button" class="uk-button uk-button-small uk-border-rounded"
                             uk-toggle="target: #modal-example">&nbsp;&nbsp;&nbsp;Book&nbsp;&nbsp;&nbsp;</button>
                         <?php
                     }
-                    ?>
+                    ?> -->
                 </div>
-            </div><!-- header phone end-->
+            </div>
+            <!-- header phone end-->
             <!-- header social media -->
             <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
                 <div class="impx-top-social">
