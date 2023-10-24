@@ -51,8 +51,7 @@
 	<!-- HEADER -->
 	<header id="impx-header">
 		<div>
-			<div class="impx-menu-wrapper style2"
-				data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+			<div class="impx-menu-wrapper style2">
 				<!-- Mobile Nav Start -->
 				<?php include './components/header-mobile.html'; ?>
 				<!-- Mobile Nav End -->

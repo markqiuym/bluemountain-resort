@@ -86,7 +86,7 @@
 											<!-- Slideshow Item #2 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-right">
-												<img src="images/slideshow/full-slide-2.jpg" alt="" data-uk-cover>
+												<img src="images/slideshow/full-slide-2.png" alt="" data-uk-cover>
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
 											</div>
@@ -141,9 +141,9 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-center uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption bottom">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline center bottom uk-transition-slide-left">
-														</div>
+														</div> -->
 														<h1
 															class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-center">
 															Oriental Spa</h1>
@@ -591,8 +591,7 @@
 				<div class="impx-contact">
 					<div id="impx-gmap"></div>
 
-					<div
-						class="impx-overlay aqua-darkest  uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+					<div class="impx-overlay   uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
 						<div class="uk-container">
 
 

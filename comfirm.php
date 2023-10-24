@@ -154,7 +154,7 @@ if (isset($_POST['arrivalDate'])) {
 											<label class="uk-form-label uk-text-bold" for="phone">&nbsp;</label>
 											<div class="uk-form-controls">
 												<input class="uk-input uk-form-width-medium" id="phone" type="tel"
-													placeholder="So the property can reach you" required>
+													placeholder="(e.g.404123456)" required>
 											</div>
 										</div>
 									</li>

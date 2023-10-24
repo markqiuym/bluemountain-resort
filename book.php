@@ -106,10 +106,10 @@ if (isset($_GET['type'])) {
 						<div class="uk-margin">
 							<div class="uk-form-controls">
 								<div class="uk-inline">
-									<label class="uk-form-label">Room Number</label>
+									<label class="uk-form-label">Number of accommandations required</label>
 									<span class="uk-form-icon" data-uk-icon="icon: lifesaver"></span>
 									<input class="uk-input booking-departure uk-border-rounded" name="roomNum"
-										id="roomNum" type="text" placeholder="Room number...">
+										id="roomNum" type="text" placeholder="Number of accommandations required...">
 								</div>
 							</div>
 						</div>
@@ -125,6 +125,10 @@ if (isset($_GET['type'])) {
 									<option value="4">4</option>
 									<option value="5">5</option>
 									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
 								</select>
 							</div>
 						</div>
@@ -152,7 +156,7 @@ if (isset($_GET['type'])) {
 						</div> -->
 						<div class="uk-button uk-width-1-1">
 							<label class="uk-form-label empty-label">&nbsp;</label>
-							<button class="uk-button uk-width-1-3" onclick="return validation()">Book
+							<button id="book" class="uk-button uk-width-1-3" onclick="return validation()">Book
 								Now</button>
 							<!-- <button class="uk-button uk-width-1-3"
 								onclick="window.location.href = 'accommandations.php';">Close</button> -->
@@ -284,6 +288,5 @@ if (isset($_GET['type'])) {
 		}
 	</script>
 </body>
-
 
 </html>

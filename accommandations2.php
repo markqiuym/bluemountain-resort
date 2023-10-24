@@ -40,8 +40,7 @@
 	<!-- HEADER -->
 	<header id="impx-header">
 		<div>
-			<div class="impx-menu-wrapper style2"
-				data-uk-sticky="top: .impx-page-heading; animation: uk-animation-slide-top">
+			<div class="impx-menu-wrapper style2">
 				<!-- Mobile Nav Start -->
 				<?php include './components/header-mobile.html'; ?>
 				<!-- Mobile Nav End -->
@@ -97,14 +96,37 @@
 												accommodation. Services include: accommodation only. Extras on request.
 											</li>
 										</ul>
-
-										<div
+										<?php
+										if (isset($_SESSION["username"])) {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										} else {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua"
+													uk-toggle="target: #modal-example2">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										}
+										?>
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="book.php?type=The nest A&price=150&image=images/rooms/room-1.jpg"
 												class="uk-button uk-button-text impx-text-aqua">BOOK
 												NOW
 												&raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #1 end -->
@@ -123,14 +145,37 @@
 												accommodation. Services include: accommodation only. Extras on request.
 											</li>
 										</ul>
-
-										<div
+										<?php
+										if (isset($_SESSION["username"])) {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										} else {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua"
+													uk-toggle="target: #modal-example2">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										}
+										?>
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="book.php?type=The nest B&price=150&image=images/rooms/room-1.jpg"
 												class="uk-button uk-button-text impx-text-aqua">BOOK
 												NOW
 												&raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #2 end -->
@@ -149,14 +194,37 @@
 												accommodation. Services include: accommodation only. Extras on request.
 											</li>
 										</ul>
-
-										<div
+										<?php
+										if (isset($_SESSION["username"])) {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										} else {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua"
+													uk-toggle="target: #modal-example2">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										}
+										?>
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="book.php?type=The nest C&price=150&image=images/rooms/room-1.jpg"
 												class="uk-button uk-button-text impx-text-aqua">BOOK
 												NOW
 												&raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #3 end -->
@@ -175,14 +243,37 @@
 												accommodation. Services include: accommodation only. Extras on request.
 											</li>
 										</ul>
-
-										<div
+										<?php
+										if (isset($_SESSION["username"])) {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										} else {
+											?>
+											<div
+												class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
+												<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													class="uk-button uk-button-text impx-text-aqua"
+													uk-toggle="target: #modal-example2">BOOK
+													NOW
+													&raquo;</a>
+											</div>
+											<?php
+										}
+										?>
+										<!-- <div
 											class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 											<a href="book.php?type=The nest D&price=150&image=images/rooms/room-1.jpg"
 												class="uk-button uk-button-text impx-text-aqua">BOOK
 												NOW
 												&raquo;</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</li><!-- room item #4 end -->
@@ -267,7 +358,28 @@
 		</div>
 	</div>
 	<!-- CONTENT END -->
-
+	<!-- This is the modal -->
+	<div id="modal-example2" uk-modal>
+		<div class="uk-modal-dialog uk-modal-body">
+			<h2 class="uk-modal-title">Information</h2>
+			<p><strong>To make a booking, please login or register!</strong></p>
+			<p class="uk-text-right">
+				<button class="uk-button uk-button-default uk-modal-close uk-border-rounded"
+					type="button"><strong>Cancel</strong></button>
+				<button class="uk-button uk-button-primary uk-border-rounded" type="button"
+					onclick="location.href='login.php?bookpg=1'">
+					<strong>&nbsp;Login&nbsp;</strong>
+				</button>
+				<!-- <a href="login.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+					class="uk-button uk-button-text impx-text-aqua">test
+					&raquo;</a> -->
+				<button class="uk-button uk-button-primary uk-border-rounded" type="button"
+					onclick="location.href='signup.php?bookpg=1'">
+					<strong>Register</strong>
+				</button>
+			</p>
+		</div>
+	</div>
 	<!-- CONTACT INFO -->
 	<?php include './components/contactInfo.html'; ?>
 	<!-- CONTACT INFO END -->
