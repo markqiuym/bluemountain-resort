@@ -102,7 +102,7 @@
 										</div>
 										<div class="uk-card-body impx-padding-medium">
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa A</h4>
-											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
 												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
 													accommodation.Services include:daily room service, breakfast, lunch
@@ -120,7 +120,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
-														class="uk-button uk-button-text impx-text-aqua">BOOK
+														class="uk-button uk-button-text">BOOK
 														NOW
 														&raquo;</a>
 												</div>
@@ -130,7 +130,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
-														class="uk-button uk-button-text impx-text-aqua"
+														class="uk-button uk-button-text"
 														uk-toggle="target: #modal-example">BOOK
 														NOW
 														&raquo;</a>
@@ -157,7 +157,7 @@
 										</div>
 										<div class="uk-card-body impx-padding-medium">
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa B</h4>
-											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
 												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
 													accommodation.Services include:daily room service, breakfast, lunch
@@ -173,7 +173,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
-														class="uk-button uk-button-text impx-text-aqua">BOOK
+														class="uk-button uk-button-text">BOOK
 														NOW
 														&raquo;</a>
 												</div>
@@ -183,7 +183,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-2.jpg"
-														class="uk-button uk-button-text impx-text-aqua"
+														class="uk-button uk-button-text"
 														uk-toggle="target: #modal-example">BOOK
 														NOW
 														&raquo;</a>
@@ -210,7 +210,7 @@
 										</div>
 										<div class="uk-card-body impx-padding-medium">
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa C</h4>
-											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
 												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
 													accommodation.Services include:daily room service, breakfast, lunch
@@ -226,7 +226,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
-														class="uk-button uk-button-text impx-text-aqua">BOOK
+														class="uk-button uk-button-text">BOOK
 														NOW
 														&raquo;</a>
 												</div>
@@ -236,7 +236,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-3.jpg"
-														class="uk-button uk-button-text impx-text-aqua"
+														class="uk-button uk-button-text"
 														uk-toggle="target: #modal-example">BOOK
 														NOW
 														&raquo;</a>
@@ -262,7 +262,7 @@
 										</div>
 										<div class="uk-card-body impx-padding-medium">
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa D</h4>
-											<span class="uk-label bg-color-aqua">from $500/night</span>
+											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
 												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
 													accommodation.Services include:daily room service, breakfast, lunch
@@ -278,7 +278,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
-														class="uk-button uk-button-text impx-text-aqua">BOOK
+														class="uk-button uk-button-text">BOOK
 														NOW
 														&raquo;</a>
 												</div>
@@ -288,7 +288,7 @@
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
 													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-4.jpg"
-														class="uk-button uk-button-text impx-text-aqua"
+														class="uk-button uk-button-text"
 														uk-toggle="target: #modal-example">BOOK
 														NOW
 														&raquo;</a>
@@ -332,7 +332,7 @@
 							<li>
 								<div data-uk-grid class="uk-grid-medium">
 									<div class="uk-width-auto">
-										<i class="fa fa-cutlery fa-2x impx-text-aqua"></i>
+										<i class="fa fa-cutlery fa-2x impx-text-gray"></i>
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">In-house Restaurant</h6>
@@ -344,7 +344,7 @@
 							<li>
 								<div data-uk-grid class="uk-grid-medium">
 									<div class="uk-width-auto">
-										<i class="fa fa-asterisk fa-2x impx-text-aqua"></i>
+										<i class="fa fa-asterisk fa-2x impx-text-gray"></i>
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Spa</h6>
@@ -356,7 +356,7 @@
 							<li>
 								<div data-uk-grid class="uk-grid-medium">
 									<div class="uk-width-auto">
-										<i class="fa fa-paw fa-2x impx-text-aqua"></i>
+										<i class="fa fa-paw fa-2x impx-text-gray"></i>
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Outdoor</h6>
@@ -368,7 +368,7 @@
 							<li>
 								<div data-uk-grid class="uk-grid-medium">
 									<div class="uk-width-auto">
-										<i class="fa fa-heart fa-2x impx-text-aqua"></i>
+										<i class="fa fa-heart fa-2x impx-text-gray"></i>
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Gym</h6>

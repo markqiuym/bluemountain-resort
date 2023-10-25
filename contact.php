@@ -36,8 +36,7 @@
     <!-- HEADER -->
     <header id="impx-header">
         <div>
-            <div class="impx-menu-wrapper style2 resto"
-                data-uk-sticky="top: .impx-slide-container; animation: uk-animation-slide-top">
+            <div class="impx-menu-wrapper style2 resto">
 
                 <!-- Mobile Nav Start -->
                 <?php include './components/header-mobile.html'; ?>
@@ -59,13 +58,13 @@
     <!-- <div class="impx-slide-container  "> -->
     <!-- <div class="impx-slideshow-fw"> -->
     <!-- <div class=" uk-position-relative  uk-background-fixed uk-background-center-center uk-height-1-1"> -->
-    <div class=" impx-overlay" style="height: 9.5rem;background-color: #393939;"></div>
+    <div class=" impx-overlay" style="height: 11rem;background-color: #393939;"></div>
 
     <!-- </div> -->
     <!-- </div> -->
     <!-- </div> -->
     <!-- HERO IMAGE END -->
-    <br>
+    <br><br><br><br><br><br>
     <div class=" uk-padding uk-padding-remove-horizontal">
         <div class="uk-container" style="width: 50rem;">
             <div data-uk-grid>

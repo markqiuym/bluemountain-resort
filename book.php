@@ -78,8 +78,8 @@ if (isset($_GET['type'])) {
 		<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-3@s">
 
 			<!-- booking form -->
-			<div class="bg-gradient-seawead uk-padding impx-padding-medium">
-				<div class="impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top">
+			<div class="bg-color-dark-gray uk-padding impx-padding-medium uk-border-rounded">
+				<div class=" impx-hp-booking-form side-form uk-margin-bottom uk-margin-remove-top">
 					<h6 class="uk-heading-line uk-text-center impx-text-white uk-text-uppercase"><span>Booking
 							Form</span></h6>
 					<form action="comfirm.php" method="POST">
@@ -156,8 +156,9 @@ if (isset($_GET['type'])) {
 						</div> -->
 						<div class="uk-button uk-width-1-1">
 							<label class="uk-form-label empty-label">&nbsp;</label>
-							<button id="book" class="uk-button uk-width-1-3" onclick="return validation()">Book
-								Now</button>
+							<button style="background: lightgrey; color: black;" id="book"
+								class="uk-border-rounded uk-button uk-width-1-3" onclick="return validation()">Book
+							</button>
 							<!-- <button class="uk-button uk-width-1-3"
 								onclick="window.location.href = 'accommandations.php';">Close</button> -->
 						</div>

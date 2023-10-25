@@ -69,14 +69,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-left uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline uk-transition-slide-left">
-														</div>
+														</div> -->
 														<h1
 															class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-left">
 															Mountains Resort</h1>
 														<p
-															class="impx-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">
+															class="impx-text-large uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">
 															Thrill Seeker's Paradise</p>
 													</div>
 												</div>
@@ -93,14 +93,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-right uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption right">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline right bottom uk-transition-slide-left">
-														</div>
+														</div> -->
 														<h1
 															class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right">
 															Beautiful Panorama</h1>
 														<p
-															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">
+															class="uk-text-large uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-right uk-text-uppercase">
 															Enjoy the Best View</p>
 													</div>
 												</div>
@@ -117,14 +117,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-left uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption text-right">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline uk-transition-slide-top">
-														</div>
+														</div> -->
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-scale-down">
 															Luxurious &amp; Convenient</h1>
 														<p
-															class="uk-text-large impx-text-gold uk-margin-remove impx-text-shadow uk-transition-scale-up uk-text-right uk-text-uppercase">
+															class="uk-text-large uk-margin-remove impx-text-shadow uk-transition-scale-up uk-text-right uk-text-uppercase">
 															Choose The Best One</p>
 													</div>
 												</div>
@@ -148,7 +148,7 @@
 															class="uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-center">
 															Oriental Spa</h1>
 														<p
-															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-center uk-text-uppercase">
+															class="uk-text-large uk-margin-remove impx-text-shadow uk-transition-slide-bottom uk-text-center uk-text-uppercase">
 															Our Spa Service</p>
 													</div>
 												</div>
@@ -165,14 +165,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-left uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline uk-transition-slide-fade">
-														</div>
+														</div> -->
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">
 															In-house Restaurant</h1>
 														<p
-															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
+															class="uk-text-large uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
 															The Delicious Foods</p>
 													</div>
 												</div>
@@ -189,14 +189,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-left uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline uk-transition-slide-fade">
-														</div>
+														</div> -->
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">
 															Our Beatiful Mountain Range</h1>
 														<p
-															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
+															class="uk-text-large  uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
 															Enjoy the View</p>
 													</div>
 												</div>
@@ -213,14 +213,14 @@
 											<div class="uk-container uk-position-relative uk-height-1-1">
 												<div class="uk-position-left uk-flex uk-flex-middle">
 													<div class="impx-slide-fw-caption">
-														<div
+														<!-- <div
 															class="impx-slide-fw-caption-outline uk-transition-slide-fade">
-														</div>
+														</div> -->
 														<h1
 															class="impx-text-white uk-margin-remove impx-text-shadow uk-transition-slide-bottom">
 															Ancient Mountain Peaks</h1>
 														<p
-															class="uk-text-large impx-text-aqua uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
+															class="uk-text-large uk-margin-remove impx-text-shadow uk-transition-slide-top uk-text-right uk-text-uppercase">
 															Mountain Climber's Delight</p>
 													</div>
 												</div>
