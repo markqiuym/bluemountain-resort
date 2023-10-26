@@ -244,7 +244,7 @@
 				<!-- SLIDESHOW END -->
 
 				<!-- SERVICES LIST & BOOKING FORM -->
-				<div class="impx-content impx-services style2 bg-color-aqua pattern-1">
+				<div class="impx-content impx-services style2 bg-color-gray pattern-1">
 					<div class="uk-container">
 
 						<div class="uk-margin-medium-bottom impx-margin-bottom-small" data-uk-grid>
