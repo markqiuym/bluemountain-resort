@@ -53,7 +53,7 @@
 					<div class="impx-slide-container style1">
 						<div class="impx-slideshow-fw">
 							<div
-								data-uk-slideshow="autoplay: true; autoplay-interval: 6000; animation: fade; finite: false; min-height: 319; max-height: 980;">
+								data-uk-slideshow="autoplay: true; autoplay-interval: 4000; animation: fade; finite: false; min-height: 319; max-height: 980;">
 								<div class="uk-position-relative uk-visible-toggle uk-light">
 
 									<ul class="uk-slideshow-items">
