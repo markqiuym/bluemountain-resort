@@ -16,14 +16,15 @@ session_start();
       crossorigin="anonymous"></script>
    <style>
       body {
-         background-image: url('./images/background/background-5.jpg');
+         /* background-image: url('./images/background/background-5.jpg'); */
+         background: lightgray;
       }
 
       .card-img-left {
          width: 45%;
          /* Link to your background image using in the property below! */
-         background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
-         background: scroll center url('./images/service-4.jpg');
+         /* background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512'); */
+         background: scroll center url('./images/signup.jpg');
          background-size: cover;
       }
 
@@ -53,15 +54,16 @@ session_start();
    <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
    <body>
+      <br> <br> <br> <br> <br> <br>
       <div class="container">
          <div class="row">
             <div class="col-lg-10 col-xl-9 mx-auto">
-               <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
+               <div class="card flex-row my-5 border-0 shadow rounded-1 overflow-hidden">
                   <div class="card-img-left d-none d-md-flex">
                      <!-- Background image for card set in CSS! -->
                   </div>
                   <div class="card-body p-4 p-sm-5">
-                     <h5 class="card-title text-center mb-5 fw-light fs-5">Register</h5>
+                     <h5 class="card-title text-center mb-2 fw-light fs-2">Register</h5>
                      <form action="signup.php" method="POST">
                         <input type="hidden" id="flg" name="flg" value="1">
                         <div class="form-floating mb-3">
