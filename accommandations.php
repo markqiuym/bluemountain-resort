@@ -97,7 +97,7 @@
 									<!-- room item #1 -->
 									<div class="uk-card uk-card-default uk-card-medium">
 										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-1.jpg" alt="">
+											<img src="images/rooms/room-7.png" alt="">
 											<div class="impx-overlay light overlay-squared padding-xwide"></div>
 										</div>
 										<div class="uk-card-body impx-padding-medium">
@@ -152,7 +152,7 @@
 									<!-- room item #2 -->
 									<div class="uk-card uk-card-default">
 										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-2.jpg" alt="">
+											<img src="images/rooms/room-8.png" alt="">
 											<div class="impx-overlay light overlay-squared padding-xwide"></div>
 										</div>
 										<div class="uk-card-body impx-padding-medium">
@@ -205,7 +205,7 @@
 									<!-- room item #3 -->
 									<div class="uk-card uk-card-default">
 										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-3.jpg" alt="">
+											<img src="images/rooms/room-9.png" alt="">
 											<div class="impx-overlay light overlay-squared padding-xwide"></div>
 										</div>
 										<div class="uk-card-body impx-padding-medium">
@@ -257,7 +257,7 @@
 									<!-- room item #4 -->
 									<div class="uk-card uk-card-default">
 										<div class="uk-card-media-top uk-position-relative">
-											<img src="images/rooms/room-4.jpg" alt="">
+											<img src="images/rooms/room-10.png" alt="">
 											<div class="impx-overlay light overlay-squared padding-xwide"></div>
 										</div>
 										<div class="uk-card-body impx-padding-medium">
