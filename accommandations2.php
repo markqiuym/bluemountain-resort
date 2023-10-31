@@ -141,8 +141,9 @@
 										<h4 class="uk-card-title uk-margin-remove-bottom">The nest B</h4>
 										<span class="uk-label bg-color-dark-gray">from $150/night</span>
 										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
-												accommodation. Services include: accommodation only. Extras on request.
+											<li><span class="impx-text-aqua"></span> Enjoy a cozy 2-bedroom retreat,
+												accommodation-only. Tailored extras available upon request, ensuring
+												your perfect getaway.
 											</li>
 										</ul>
 										<?php
@@ -190,8 +191,9 @@
 										<h4 class="uk-card-title uk-margin-remove-bottom">The nest C</h4>
 										<span class="uk-label bg-color-dark-gray">from $150/night</span>
 										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
-												accommodation. Services include: accommodation only. Extras on request.
+											<li><span class="impx-text-aqua"></span> Unwind in a cozy 2-bedroom haven,
+												accommodation-only. Customize your experience with extras upon request,
+												making it uniquely yours.
 											</li>
 										</ul>
 										<?php
@@ -239,8 +241,9 @@
 										<h4 class="uk-card-title uk-margin-remove-bottom">The nest D</h4>
 										<span class="uk-label bg-color-dark-gray">from $150/night</span>
 										<ul class="uk-list room-fac">
-											<li><span class="impx-text-aqua"></span> cosy 2-bedroom
-												accommodation. Services include: accommodation only. Extras on request.
+											<li><span class="impx-text-aqua"></span> Experience a snug 2-bedroom escape,
+												accommodation-only. Elevate your stay with extras tailored to your
+												preferences, just a request away.
 											</li>
 										</ul>
 										<?php
@@ -306,8 +309,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">In-house Restaurant</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Exquisite cuisine,
+											panoramic views, live music, and top-notch service. Unforgettable dining</p>
 									</div>
 								</div>
 							</li>
@@ -318,8 +321,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Spa</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Tranquil oasis,
+											rejuvenating therapies, and inner peace. Discover serenity within</p>
 									</div>
 								</div>
 							</li>
@@ -330,8 +333,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Outdoor</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Immerse in nature,
+											adventure, and fresh air. Unleash your outdoor spirit</p>
 									</div>
 								</div>
 							</li>
@@ -342,8 +345,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Gym</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Cutting-edge fitness,
+											expert guidance, and peak performance. Achieve your fitness goals here</p>
 									</div>
 								</div>
 							</li>

@@ -268,9 +268,9 @@
 												<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Hotel
 													&amp; Resort
 												</div>
-												<p>Alterum significari idem, ut si diceretur, officia media omnia aut
-													pleraque
-													servantem vivere</p>
+												<p>Escape to our serene mountain resort. Cozy rooms, breathtaking
+													views, and adventure await. Book your perfect mountain getaway
+													today!</p>
 												<a href="accommandations.php"
 													class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Learn
 													More &raquo;</a>
@@ -287,9 +287,9 @@
 											<div class="uk-card-body uk-card-small uk-text-center">
 												<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">
 													Restaurant</div>
-												<p>Alterum significari idem, ut si diceretur, officia media omnia aut
-													pleraque
-													servantem vivere</p>
+												<p>Savor mountain-inspired cuisine at our resort restaurant. Indulge in
+													delectable dishes amidst stunning views. A culinary journey in the
+													mountains!</p>
 												<a href="restaurant.php"
 													class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Learn
 													More &raquo;</a>
@@ -306,9 +306,9 @@
 											<div class="uk-card-body uk-card-small uk-text-center">
 												<div class="uk-card-badge uk-label uk-label-danger bg-color-aqua">Spa
 												</div>
-												<p>Alterum significari idem, ut si diceretur, officia media omnia aut
-													pleraque
-													servantem vivere</p>
+												<p>Rejuvenate at our mountain resort spa. Serene surroundings, expert
+													treatments, and relaxation at its peak. Elevate your well-being in
+													nature's embrace.</p>
 												<a href="spa.php"
 													class="uk-button uk-button-default uk-button-small impx-button gold impx-button-outline outline-gold button-wide impx-button-rounded small-border">Learn
 													More &raquo;</a>
@@ -351,9 +351,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color1 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Best Value for
 											Family</h6>
-										<p class="uk-margin-remove  impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove  impx-text-lighter">Luxurious family retreat in our
+											mountain resort's premium section.</p>
 										<span data-uk-icon="icon: users; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #1 End -->
@@ -363,9 +362,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color2 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Services
 											Priority</h6>
-										<p class="uk-margin-remove impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove impx-text-lighter">Exquisite service in our mountain
+											resort's priority section for your comfort.</p>
 										<span data-uk-icon="icon: bell; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #2 End -->
@@ -375,9 +373,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color3 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Best
 											Facilities</h6>
-										<p class="uk-margin-remove impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove impx-text-lighter">Optimal amenities in our mountain
+											resort's Best Facilities section for you.</p>
 										<span data-uk-icon="icon: star; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #3 End -->
@@ -387,9 +384,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color4 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Satisfation
 											Guarantee</h6>
-										<p class="uk-margin-remove impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove impx-text-lighter">Ensuring your happiness at our
+											mountain resort with Satisfaction Guarantee.</p>
 										<span data-uk-icon="icon: heart; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #4 End -->
@@ -399,9 +395,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color5 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Beatiful
 											Panorama</h6>
-										<p class="uk-margin-remove impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove impx-text-lighter">Experience breathtaking vistas in
+											our mountain resort's Beautiful Panorama section.</p>
 										<span data-uk-icon="icon: image; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #5 End -->
@@ -411,9 +406,8 @@
 										class="uk-card uk-card-default uk-card-body uk-box-shadow-medium color6 impx-feature-item uk-position-relative">
 										<h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">Enjoy Your
 											Time</h6>
-										<p class="uk-margin-remove impx-text-lighter">Cur igitur, cum de re conveniat,
-											melius nos
-											veriusque quam Stoici mallem aut expetendam.</p>
+										<p class="uk-margin-remove impx-text-lighter">Relax and savor every moment in
+											our mountain resort's Enjoy Your Time section.</p>
 										<span data-uk-icon="icon: happy; ratio: 8" class="feature-icon"></span>
 									</div>
 								</li><!-- Reason Item #6 End -->
@@ -441,11 +435,9 @@
 
 								<div class="impx-intro uk-text-right uk-light uk-position-relative">
 									<h2 class="uk-margin-small-bottom">Testimonials</h2>
-									<p class="impx-text-large uk-margin-remove-top uk-margin-medium-bottom">Lorem ipsum
-										dolor sit
-										amet, consectetur adipiscing elit. Si id dicis, vicimus. Sed ad illum redeo.
-										Quia nec
-										honesto quic quam honestius nec turpi turpius.</p>
+									<p class="impx-text-large uk-margin-remove-top uk-margin-medium-bottom">Discover
+										what our delighted guests have to say in the Testimonials section of our
+										mountain resort.</p>
 								</div>
 
 								<!-- Testimonials List -->
@@ -459,18 +451,14 @@
 														<div class="impx-testi-container">
 															<div class="impx-testi-text">
 																<blockquote>
-																	<p>Hinc ceteri particulas arripere conati suam
-																		quisque videro
-																		voluit afferre sententiam. Erit enim mecum, si
-																		tecum erit
-																		conantur! nostrum! Incendi igitur eos, qui
-																		audiunt, vides
-																		prima si dederis, danda sunt omnia</p>
+																	<p>The mountain resort was a dream come true,
+																		perfect for relaxation and adventure.
+																		Unforgettable family time!"</p>
 																</blockquote>
 															</div>
 															<div class="uk-text-center">
 																<div class="impx-testi-name">
-																	<p>Mrs. Smith Yan</p>
+																	<p>Mrs. Jane</p>
 																</div>
 																<div class="impx-company-name">
 																	<p class="bg-color-gold">Book Author</p>
@@ -488,18 +476,14 @@
 														<div class="impx-testi-container">
 															<div class="impx-testi-text">
 																<blockquote>
-																	<p>Hinc ceteri particulas arripere conati suam
-																		quisque videro
-																		voluit afferre sententiam. Erit enim mecum, si
-																		tecum erit
-																		conantur! nostrum! Incendi igitur eos, qui
-																		audiunt, vides
-																		prima si dederis, danda sunt omnia</p>
+																	<p>Outstanding scenery and fantastic activities -
+																		this resort exceeded our expectations. An
+																		incredible escape</p>
 																</blockquote>
 															</div>
 															<div class="uk-text-center">
 																<div class="impx-testi-name">
-																	<p>Mrs. Smith Yan</p>
+																	<p>Mr. Smith </p>
 																</div>
 																<div class="impx-company-name">
 																	<p class="bg-color-gold">Book Author</p>
@@ -517,18 +501,14 @@
 														<div class="impx-testi-container">
 															<div class="impx-testi-text">
 																<blockquote>
-																	<p>Hinc ceteri particulas arripere conati suam
-																		quisque videro
-																		voluit afferre sententiam. Erit enim mecum, si
-																		tecum erit
-																		conantur! nostrum! Incendi igitur eos, qui
-																		audiunt, vides
-																		prima si dederis, danda sunt omnia</p>
+																	<p>Celebrated my birthday at the mountain resort -
+																		incredible! The scenic views and activities were
+																		a dream come true. Perfect for guys' trips!</p>
 																</blockquote>
 															</div>
 															<div class="uk-text-center">
 																<div class="impx-testi-name">
-																	<p>Mrs. Smith Yan</p>
+																	<p>Mr. Johnson</p>
 																</div>
 																<div class="impx-company-name">
 																	<p class="bg-color-gold">Book Author</p>
@@ -540,35 +520,6 @@
 														</div>
 													</div>
 												</li><!-- Testimonial List Item 3 End -->
-												<li class="uk-padding uk-padding-remove-vertical">
-													<!-- Testimonial List Item 4 -->
-													<div class="impx-testimonial-item impx-contrast">
-														<div class="impx-testi-container">
-															<div class="impx-testi-text">
-																<blockquote>
-																	<p>Hinc ceteri particulas arripere conati suam
-																		quisque videro
-																		voluit afferre sententiam. Erit enim mecum, si
-																		tecum erit
-																		conantur! nostrum! Incendi igitur eos, qui
-																		audiunt, vides
-																		prima si dederis, danda sunt omnia</p>
-																</blockquote>
-															</div>
-															<div class="uk-text-center">
-																<div class="impx-testi-name">
-																	<p>Mrs. Smith Yan</p>
-																</div>
-																<div class="impx-company-name">
-																	<p class="bg-color-gold">Book Author</p>
-																</div>
-															</div>
-														</div>
-														<div class="impx-testi-image"><img
-																src="images/peoples/testi-people4.jpg" alt="People 1" />
-														</div>
-													</div>
-												</li><!-- Testimonial List Item 4 End -->
 											</ul>
 
 											<!-- Testimonial Nav -->

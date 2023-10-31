@@ -159,13 +159,10 @@
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa B</h4>
 											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
-													accommodation.Services include:daily room service, breakfast, lunch
-													and
-													dinner at choic of restaurant. Onrequest all meals from our menu can
-													be
-													specially prepared by a chef at the villa. Access to all leisure
-													facilities.</li>
+												<li><span class="impx-text-aqua"></span> Indulge in a 3-bedroom villa
+													with daily room service, complimentary breakfast, and restaurant
+													dining. Request personalized chef-prepared meals and access leisure
+													facilities for added relaxation and entertainment.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -212,13 +209,10 @@
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa C</h4>
 											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
-													accommodation.Services include:daily room service, breakfast, lunch
-													and
-													dinner at choic of restaurant. Onrequest all meals from our menu can
-													be
-													specially prepared by a chef at the villa. Access to all leisure
-													facilities.</li>
+												<li><span class="impx-text-aqua"></span> Unwind in our 3-bedroom luxury
+													villa, where daily room service, complimentary breakfast, and
+													restaurant dining await. A private chef can create custom meals, and
+													leisure facilities offer endless entertainment.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -264,13 +258,10 @@
 											<h4 class="uk-card-title uk-margin-remove-bottom">Villa D</h4>
 											<span class="uk-label bg-color-dark-gray">from $500/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 3 bedroom luxury
-													accommodation.Services include:daily room service, breakfast, lunch
-													and
-													dinner at choic of restaurant. Onrequest all meals from our menu can
-													be
-													specially prepared by a chef at the villa. Access to all leisure
-													facilities.</li>
+												<li><span class="impx-text-aqua"></span> Our 3-bedroom villa ensures
+													luxury and convenience, featuring daily room service, complimentary
+													breakfast, and restaurant dining. Enjoy customized meals by a
+													private chef and access to leisure facilities.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -336,8 +327,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">In-house Restaurant</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Exquisite cuisine,
+											panoramic views, live music, and top-notch service. Unforgettable dining</p>
 									</div>
 								</div>
 							</li>
@@ -348,8 +339,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Spa</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Tranquil oasis,
+											rejuvenating therapies, and inner peace. Discover serenity within</p>
 									</div>
 								</div>
 							</li>
@@ -360,8 +351,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Outdoor</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Immerse in nature,
+											adventure, and fresh air. Unleash your outdoor spirit</p>
 									</div>
 								</div>
 							</li>
@@ -372,8 +363,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Gym</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Cutting-edge fitness,
+											expert guidance, and peak performance. Achieve your fitness goals here</p>
 									</div>
 								</div>
 							</li>

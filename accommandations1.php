@@ -144,10 +144,9 @@
 											<span class="uk-label bg-color-dark-gray">from
 												$300/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
+												<li><span class="impx-text-aqua"></span> Elegant 2-bedroom luxury
+													accommodation offers daily room service, complimentary breakfast,
+													and choice of dining. Your retreat, your way.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -195,10 +194,9 @@
 											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet C</h4>
 											<span class="uk-label bg-color-dark-gray">from $300/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
+												<li><span class="impx-text-aqua"></span> Experience 2-bedroom luxury
+													living, with daily room service, breakfast, and restaurant dining.
+													Your perfect escape awaits.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -245,10 +243,9 @@
 											<h4 class="uk-card-title uk-margin-remove-bottom">Chalet D</h4>
 											<span class="uk-label bg-color-dark-gray">from $300/night</span>
 											<ul class="uk-list room-fac">
-												<li><span class="impx-text-aqua"></span> 2 bedroom luxury
-													accommodation. Services include: daily room service, breakfast,
-													lunch
-													and dinner at choice of restaurant.</li>
+												<li><span class="impx-text-aqua"></span> Unwind in 2-bedroom luxury
+													comfort with daily room service, breakfast, and your choice of
+													restaurant dining.</li>
 											</ul>
 											<?php
 											if (isset($_SESSION["username"])) {
@@ -314,8 +311,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">In-house Restaurant</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Exquisite cuisine,
+											panoramic views, live music, and top-notch service. Unforgettable dining</p>
 									</div>
 								</div>
 							</li>
@@ -326,8 +323,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Spa</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Tranquil oasis,
+											rejuvenating therapies, and inner peace. Discover serenity within</p>
 									</div>
 								</div>
 							</li>
@@ -338,8 +335,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Outdoor</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis ego</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Immerse in nature,
+											adventure, and fresh air. Unleash your outdoor spirit</p>
 									</div>
 								</div>
 							</li>
@@ -350,8 +347,8 @@
 									</div>
 									<div class="uk-width-expand">
 										<h6 class="uk-margin-remove">Gym</h6>
-										<p class="uk-margin-remove-bottom uk-margin-small-top">Ergo hoc quidem apparet
-											agendum esse natos. Quam tu ponis in verbis</p>
+										<p class="uk-margin-remove-bottom uk-margin-small-top">Cutting-edge fitness,
+											expert guidance, and peak performance. Achieve your fitness goals here</p>
 									</div>
 								</div>
 							</li>
