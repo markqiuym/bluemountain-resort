@@ -141,9 +141,10 @@
 									</div>
 								</div>
 								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
-									<h5 class="uk-margin-remove-bottom">Feature Title</h5>
-									<p class="uk-margin-small-top uk-margin-remove-bottom">Nunc omni virtuti vitium
-										contrario constructio interrete. Itaque ad tempus ad Pisonem omnes</p>
+									<h5 class="uk-margin-remove-bottom">Mountain Morning Delights</h5>
+									<p class="uk-margin-small-top uk-margin-remove-bottom">Start your day with
+										breathtaking views and a sumptuous breakfast at our mountain retreat. Fuel your
+										adventure with a hearty meal</p>
 								</div>
 							</div>
 						</li><!-- highlight item #1 end -->
@@ -157,9 +158,10 @@
 									</div>
 								</div>
 								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
-									<h5 class="uk-margin-remove-bottom">Feature Title</h5>
-									<p class="uk-margin-small-top uk-margin-remove-bottom">Nunc omni virtuti vitium
-										contrario constructio interrete. Itaque ad tempus ad Pisonem omnes</p>
+									<h5 class="uk-margin-remove-bottom">Mountain Elegance: A Wine Lover's Retreat</h5>
+									<p class="uk-margin-small-top uk-margin-remove-bottom">Indulge in the finest
+										mountain wines at our resort. Discover exquisite flavors and elevate your dining
+										experience with our curated wine selection.</p>
 								</div>
 							</div>
 						</li><!-- highlight item #2 end -->
@@ -174,9 +176,10 @@
 									</div>
 								</div>
 								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
-									<h5 class="uk-margin-remove-bottom">Feature Title</h5>
-									<p class="uk-margin-small-top uk-margin-remove-bottom">Nunc omni virtuti vitium
-										contrario constructio interrete. Itaque ad tempus ad Pisonem omnes</p>
+									<h5 class="uk-margin-remove-bottom">Mountain Cuisine Delights</h5>
+									<p class="uk-margin-small-top uk-margin-remove-bottom">Savor the taste of the
+										mountains with our chef's culinary creations. Explore the rich flavors of
+										locally inspired dishes at our resort omnes</p>
 								</div>
 							</div>
 						</li><!-- highlight item #3 end -->
@@ -190,9 +193,10 @@
 									</div>
 								</div>
 								<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s">
-									<h5 class="uk-margin-remove-bottom">Feature Title</h5>
-									<p class="uk-margin-small-top uk-margin-remove-bottom">Nunc omni virtuti vitium
-										contrario constructio interrete. Itaque ad tempus ad Pisonem omnes</p>
+									<h5 class="uk-margin-remove-bottom">Sumptuous Sunlit Lunch</h5>
+									<p class="uk-margin-small-top uk-margin-remove-bottom">Enjoy a delightful
+										midday break with our Mountain Sun lunch. Savor fresh, flavorful dishes amidst
+										stunning mountain vistas</p>
 								</div>
 							</div>
 						</li><!-- highlight item #4 end -->
@@ -228,9 +232,10 @@
 			<div data-uk-grid>
 				<div class="uk-width-expand@xl uk-width-expand@l uk-width-expand@m uk-width-1-1@s">
 					<div class="impx-badge-content left uk-light uk-margin-medium-top uk-text-right">
-						<h4 class="uk-margin-small-bottom">Enim ad omnia respondere</h4>
-						<p class="impx-text-large uk-margin-remove uk-visible@s">Omnes enim iucundum motum, quo sensus
-							Neque solum ea communia, verum etiam paria dixerunt. Quicquid porro</p>
+						<h4 class="uk-margin-small-bottom">Enjoy the Mountains</h4>
+						<p class="impx-text-large uk-margin-remove uk-visible@s">This is a long way to everything, for
+							everyone finds pleasant the motion by which the senses, not only in common but also
+							individually, are excited.</p>
 					</div>
 				</div>
 				<div class="uk-width-1-5@xl uk-width-1-5@l uk-width-1-4@m uk-width-1-1@s">
@@ -241,9 +246,10 @@
 				</div>
 				<div class="uk-width-expand@xl uk-width-expand@l uk-width-expand@m uk-width-1-1@s">
 					<div class="impx-badge-content right uk-light uk-margin-medium-top">
-						<h4 class="uk-margin-small-bottom">Longum est enim ad omnia</h4>
-						<p class="impx-text-large uk-margin-remove uk-visible@s">Omnes enim iucundum motum, quo sensus
-							Neque solum ea communia, verum etiam paria dixerunt. Quicquid porro</p>
+						<h4 class="uk-margin-small-bottom">Mountain Chef's Choice.</h4>
+						<p class="impx-text-large uk-margin-remove uk-visible@s">Allow your body and soul to be
+							nourished by our Head Chef's artful selection of decedent meals, wines and treats. All day
+							pampering</p>
 					</div>
 				</div>
 			</div>

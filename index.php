@@ -61,7 +61,7 @@
 											<!-- Slideshow Item #1 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-center">
-												<img src="images/slideshow/full-slide-1.jpg" alt=""
+												<img src="images/slideshow/OIP (3).jpg" alt=""
 													data-uk-cover="height:319px">
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
@@ -134,7 +134,7 @@
 											<!-- Slideshow Item #4 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
-												<img src="images/slideshow/full-slide-4.jpg" alt="" data-uk-cover>
+												<img src="images/slideshow/OIP (1).jpg" alt="" data-uk-cover>
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
 											</div>
@@ -552,23 +552,20 @@
 									<h5 class="uk-heading-line uk-margin-remove-bottom impx-text-white">
 										<span>Address</span>
 									</h5>
-									<p class="impx-text-large uk-margin-top impx-text-light">Jln. Raya Kemerderkaan RI
-										No.
-										17<br />Indonesia Raya</p>
+									<p class="impx-text-large uk-margin-top impx-text-light">10 - 20 High Mountain Rd.
+										Blue Mountains, NSW<br />Australia<br /></p>
 								</div><!-- Address End-->
 								<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s">
 									<!-- Phone -->
 									<h5 class="uk-heading-line uk-margin-bottom impx-text-white"><span>Phone</span></h5>
-									<p class="impx-text-large uk-margin-remove impx-text-light">+62 123456789<br />+62
-										987456123</p>
+									<p class="impx-text-large uk-margin-remove impx-text-light">+61 02 82300678<br />+61
+										02 92745623</p>
 								</div><!-- Phone End -->
 								<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s">
 									<!-- Email -->
-									<h5 class="uk-heading-line uk-margin-bottom  impx-text-white"><span>Email</span>
-									</h5>
-									<a href="mailt:#"
-										class="impx-text-large impx-text-light">cs@sativa-html.com</a><br />
-									<a href="mailt:#" class="impx-text-large impx-text-light">info@sativa-html.com</a>
+									<h5 class="uk-heading-line uk-margin-bottom"><span>Email</span></h5>
+									<a href="mailt:#" class="impx-text-large">admin.mountains@gmail.com</a><br />
+									<a href="mailt:#" class="impx-text-large">info.mountains@gmail.com</a>
 								</div><!-- Email End -->
 							</div>
 
