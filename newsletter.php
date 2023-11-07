@@ -90,7 +90,7 @@
 
                                         <div class="uk-width-1-2@s">
                                             <label class="uk-form-label uk-text-bold" for="form-stacked-text">Interest
-                                                Category</label>
+                                            </label>
                                             <select class="uk-select uk-border-rounded" id="form-stacked-text" required>
                                                 <option value="">Please select...</option>
                                                 <option value="1">Room Promotions</option>
@@ -98,6 +98,7 @@
                                                 <option value="3">dinning News</option>
                                                 <option value="4">Wellness News</option>
                                                 <option value="5">Wedding Information</option>
+                                                <option value="6">General</option>
                                             </select>
                                             <!-- <div class="uk-form-controls">
                                                 <input class="uk-input uk-form-width-medium" id="form-stacked-text"
