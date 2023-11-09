@@ -167,6 +167,12 @@ if (isset($_POST['arrivalDate'])) {
 						<div class="bg-color-white uk-padding  impx-padding-medium uk-box-shadow-small">
 							<div class="uk-position-relative uk-visible-toggle">
 								<h4 class="uk-margin-medium-bottom"><span>Payment method</span></h4>
+								<div>
+									<img src="./images/visa.png" alt="visa" height="40px" width="40px">
+									<img src="./images/master.png" alt="master" height="40px" width="40px">
+									<img src="./images/ipay.png" alt="ipay" height="40px" width="40px">
+								</div>
+								<br>
 								<ul class="uk-child-width-1-1@xl uk-child-width-1-1@l uk-child-width-1-1@m uk-child-width-1-1@s data-uk-grid uk-grid-match uk-margin-large-bottom"
 									data-uk-grid>
 									<li>

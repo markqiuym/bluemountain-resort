@@ -61,7 +61,7 @@
 											<!-- Slideshow Item #1 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-center">
-												<img src="images/slideshow/OIP (3).jpg" alt=""
+												<img src="images/slideshow/happy.jpg" alt=""
 													data-uk-cover="height:319px">
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
@@ -134,7 +134,7 @@
 											<!-- Slideshow Item #4 -->
 											<div
 												class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
-												<img src="images/slideshow/OIP (1).jpg" alt="" data-uk-cover>
+												<img src="images/slideshow/spa_image_resort.png" alt="" data-uk-cover>
 												<div class="uk-overlay-primary uk-position-cover impx-overlay dark">
 												</div>
 											</div>

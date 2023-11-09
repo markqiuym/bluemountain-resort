@@ -244,13 +244,16 @@ if (isset($_GET['type'])) {
 			// alert("arrivalDate:" + arrivalDate);
 			// alert("departureDate:" + departureDate);
 			var tToday = today.getMonth() + 1 + "/" + today.getDate() + "/" + today.getFullYear()
-			// alert("now:" + tToday);
+			// echo "today" + tToday
+
 			if (arrivalDate == "") {
 				alert("Arrival date cannot be empty!");
 				document.getElementById("arrivalDate").focus();
 				return false;
 			}
-			if (arrivalDate < tToday) {
+			// alert("arrivalDate:" + arrivalDate);
+			// alert("tToday:" + tToday);
+			if (arrivalDate > tToday) {
 				alert("Arrival date must be greater than today!");
 				document.getElementById("arrivalDate").focus();
 				return false;
@@ -260,7 +263,9 @@ if (isset($_GET['type'])) {
 				document.getElementById("departureDate").focus();
 				return false;
 			}
-			if (departureDate < tToday) {
+			// alert(departureDate)
+			// alert(tToday)
+			if (departureDate > tToday) {
 				alert("Departure date must be greater than today!");
 				document.getElementById("departureDate").focus();
 				return false;

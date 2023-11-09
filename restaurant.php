@@ -36,7 +36,7 @@
 	<header id="impx-header">
 		<div>
 			<div class="impx-menu-wrapper style2 resto"
-				data-uk-sticky="top: .impx-slide-container; animation: uk-animation-slide-top">
+				data-uk-sticky="top: .impx-slide-container; animation: uk-animation-slide-top-small">
 
 				<!-- Mobile Nav Start -->
 				<?php include './components/header-mobile.html'; ?>
@@ -67,7 +67,7 @@
 							<div
 								class="impx-slide-fw-caption resto-caption uk-position-relative uk-position-z-index uk-text-center uk-light">
 								<!-- intro -->
-								<h1 class="impx-text-shadow">Mountains Resort Restaurant</h1>
+								<h1 class="impx-text-shadow">Restaurant</h1>
 
 								<div class="uk-margin">
 									<i class="fa fa-coffee impx-slide-icon impx-text-white"></i>
@@ -108,6 +108,7 @@
 						<li><i class="fa fa-check impx-text-aqua"></i><strong class="impx-text-aqua">Dinner</strong>
 							4.00 PM - 12.00 PM</li>
 					</ul>
+					<p><i class="fa fa-phone"></i> Phone : +61 02 82300678</p>
 				</div>
 				<!-- Contact Info End -->
 			</div>
@@ -205,7 +206,7 @@
 				</div>
 
 				<!-- Intro Text -->
-				<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-1@m">
+				<div class="uk-width-1-3@xl uk-width-1-3@l uk-width-1-4@m">
 					<div class="impx-img-stacked uk-padding-remove-horizontal">
 						<img src="images/gallery/resto-gal-7.jpg" alt="" class="">
 						<img src="images/gallery/resto-gal-2.jpg" alt="" class="">

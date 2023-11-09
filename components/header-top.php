@@ -16,7 +16,7 @@ session_start();
             <!-- header phone -->
             <div class="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
                 <div class="impx-top-phone">
-                    <!-- <p><i class="fa fa-phone"></i> Phone : +62 123456789</p> -->
+                    <p><i class="fa fa-phone"></i> Phone : +61 02 82300678</p>
                     <!-- <?php
                     if (isset($_SESSION["username"])) {
                         ?>
