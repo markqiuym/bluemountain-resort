@@ -339,8 +339,8 @@
 
 							<!-- Intro Text -->
 							<div class="impx-intro uk-text-left">
-								<h2 class="uk-margin-remove-bottom uk-margin-small-top">Why Choose Us?</h2>
-								<p class="uk-margin-remove uk-text-uppercase">You can additional subtitle Here.</p>
+								<h2 class="uk-margin-remove-bottom uk-margin-small-top">Why Choose Mountains Resort?
+								</h2>
 							</div>
 							<!-- Intro Text End -->
 							<ul class="uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s impx-features-hl uk-grid-medium uk-grid-match uk-margin-top impx-margin-top-small"
@@ -553,7 +553,7 @@
 										<span>Address</span>
 									</h5>
 									<p class="impx-text-large uk-margin-top impx-text-light">10 - 20 High Mountain Rd.
-										Blue Mountains, NSW<br />Australia<br /></p>
+										Blue Mountains, NSW 2774<br />Australia<br /></p>
 								</div><!-- Address End-->
 								<div class="uk-light uk-width-1-4@xl uk-width-1-4@l uk-width-1-4@m uk-width-1-1@s">
 									<!-- Phone -->
