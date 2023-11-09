@@ -109,13 +109,15 @@ if (isset($_GET['type'])) {
 									<label class="uk-form-label">Number of accommandations required</label>
 									<span class="uk-form-icon" data-uk-icon="icon: lifesaver"></span>
 									<input class="uk-input booking-departure uk-border-rounded" name="roomNum"
-										id="roomNum" type="text" placeholder="Number of accommandations required...">
+										id="roomNum" type="number" placeholder="Number of accommandations required...">
 								</div>
 							</div>
 						</div>
 						<div class="uk-margin">
 							<div class="uk-form-controls uk-position-relative">
-								<label class="uk-form-label" for="form-guest-select">Guest</label>
+								<label class="uk-form-label" for="form-guest-select">Guest
+									<?php echo ($price) ?>
+								</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
 								<select class="uk-select uk-border-rounded" id="form-guest-select" name="guestNumber">
 									<option value="">Please select...</option>
@@ -253,20 +255,13 @@ if (isset($_GET['type'])) {
 			}
 			// alert("arrivalDate:" + arrivalDate);
 			// alert("tToday:" + tToday);
-			if (arrivalDate > tToday) {
+			if (arrivalDate <= tToday) {
 				alert("Arrival date must be greater than today!");
 				document.getElementById("arrivalDate").focus();
 				return false;
 			}
 			if (departureDate == "") {
 				alert("Departure date cannot be empty!");
-				document.getElementById("departureDate").focus();
-				return false;
-			}
-			// alert(departureDate)
-			// alert(tToday)
-			if (departureDate > tToday) {
-				alert("Departure date must be greater than today!");
 				document.getElementById("departureDate").focus();
 				return false;
 			}

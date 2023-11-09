@@ -17,6 +17,9 @@ if (isset($_POST['arrivalDate'])) {
 
 
 	$days_difference = floor($diff / (60 * 60 * 24));
+	// echo "days_difference===" . $days_difference;
+	// echo "roomNum===" . $roomNum;
+	// echo "price===" . $price;
 	if ($days_difference == 1) {
 		$nightNum = $days_difference;
 		$total = $roomNum * $price * $days_difference;
@@ -252,7 +255,7 @@ if (isset($_POST['arrivalDate'])) {
 										id="js-modal-dialog" type="submit">Complete
 										booking ></button>
 									<button class="uk-button uk-width-1-3 uk-border-rounded uk-button-primary"
-										onclick="window.location.href = 'book.php';">Close</button>
+										onclick="window.location.href = 'accommandations.php';">Close</button>
 								</div>
 							</div>
 						</div>
