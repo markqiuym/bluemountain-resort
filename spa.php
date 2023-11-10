@@ -61,7 +61,7 @@
 		<div class="uk-container uk-position-relative uk-height-1-1">
 			<div class="uk-position-center uk-flex uk-flex-middle">
 				<div class="impx-slide-fw-caption spa">
-					<div class="impx-slide-fw-caption-outline center bottom"></div>
+					<div class=" center bottom"></div>
 					<h1 class="uk-margin-remove impx-text-shadow uk-text-center impx-text-white">Oriental Spa</h1>
 					<!-- title -->
 					<p
@@ -81,11 +81,17 @@
 			<div class="uk-flex-center" data-uk-grid>
 				<div class="uk-width-2-3@xl uk-width-2-3@l uk-width-1-1@m uk-width-1-1@s">
 					<div class="impx-intro uk-text-center uk-light spa">
-						<h2 class="uk-margin-small-bottom uk-heading-line line-light"><span>Welcome to Sativa Spa</span>
+						<h2 class="uk-margin-small-bottom uk-heading-line line-light"><span>Welcome to Mountain
+								Spa</span>
 						</h2>
-						<p class="impx-text-large uk-margin-bottom">Beatus autem esse in maximarum rerum timore nemo
-							potest quaerere cum summis doloribus laetitia vacuitas doloris in officio plurimum interest
-							hoc melius nos veriusque .</p>
+						<p class="impx-text-large uk-margin-bottom">Indulge in opulent serenity at the pinnacle of
+							relaxation – welcome to "Mountain Spa" at Mountains Resort, where the art of well-being
+							reaches new heights.
+							Escape the ordinary and elevate your senses in our luxurious sanctuary nestled amidst the
+							breath-taking mountain landscapes. Our world-class spa beckons you with an exclusive blend
+							of tranquillity and sophistication, promising an unparalleled escape from the demands of
+							everyday life. Indulge in opulent serenity at the pinnacle of relaxation – welcome to
+							"Mountain Spa" at Mountains Resort, where the art of well-being reaches new heights. .</p>
 					</div>
 				</div>
 			</div>
@@ -410,10 +416,16 @@
 
 					<!-- Intro -->
 					<div class="impx-intro  uk-text-center uk-position-relative">
-						<h2 class="impx-text-white uk-margin-remove-bottom">Meet Our Therapist</h2>
-						<p class="impx-text-large uk-margin-small-top uk-margin-medium-bottom impx-text-lighter">Mauris
-							quis nisi vitae dolor laoreet auris in quam nec diam sagittis aliquet vel molesti turpis eu
-							dolor posuere lacinia penatibus aliquam ut Ita fit cum gravior, tum etiam splendidior oratio
+						<h2 class="impx-text-white uk-margin-remove-bottom">Meet Our Therapists</h2>
+						<p class="impx-text-large uk-margin-small-top uk-margin-medium-bottom impx-text-lighter">Embark
+							on a journey of unparalleled relaxation and rejuvenation at "Mountain Spa," where our
+							therapists are not just artisans of touch, but architects of serenity. Nestled in the heart
+							of pristine mountain landscapes, our spa transcends the ordinary, offering a sanctuary where
+							expertise meets opulence.
+							Our handpicked team of therapists, distinguished by their mastery in the art of wellness, is
+							devoted to crafting bespoke experiences that elevate the senses. Each session is a symphony
+							of skilled touch, personalized care, and a commitment to restoring harmony to both body and
+							soul.
 						</p>
 					</div>
 					<!-- Intro End -->
@@ -444,7 +456,8 @@
 									<img src="images/peoples/therapist-1.jpg" alt="">
 								</div>
 								<div class="uk-card-body impx-padding-medium uk-text-center">
-									<p>Itaque nostrum est-quod nostrum dico, artis ea principia accepimus.</p>
+									<p>Crafting tranquillity with expert hands, surrender to the serenity sculptor's
+										soothing touch.</p>
 								</div>
 							</div>
 						</li><!-- Therapist #1 end -->
@@ -455,7 +468,7 @@
 								<div class="uk-card-header  impx-padding-medium-left impx-padding-medium-right">
 									<div class="uk-flex-middle" data-uk-grid>
 										<div class="uk-width-expand">
-											<h5 class="uk-card-title uk-margin-remove-bottom">Memy Doe</h5>
+											<h5 class="uk-card-title uk-margin-remove-bottom">Memy Mark</h5>
 										</div>
 										<div class="uk-width-auto">
 											<div class="uk-label small bg-color-aqua">therapist</div>
@@ -466,7 +479,8 @@
 									<img src="images/peoples/therapist-2.jpg" alt="">
 								</div>
 								<div class="uk-card-body impx-padding-medium uk-text-center">
-									<p>Itaque nostrum est-quod nostrum dico, artis ea principia accepimus.</p>
+									<p>Renew and refresh as the rejuvenation maestro orchestrates a symphony of
+										revitalizing rituals.</p>
 								</div>
 							</div>
 						</li><!-- Therapist #2 end -->
@@ -477,7 +491,7 @@
 								<div class="uk-card-header impx-padding-medium-left impx-padding-medium-right">
 									<div class="uk-flex-middle" data-uk-grid>
 										<div class="uk-width-expand">
-											<h5 class="uk-card-title uk-margin-remove-bottom">Melia Doe</h5>
+											<h5 class="uk-card-title uk-margin-remove-bottom">Melia Tonny</h5>
 										</div>
 										<div class="uk-width-auto">
 											<div class="uk-label small bg-color-aqua">therapist</div>
@@ -488,7 +502,8 @@
 									<img src="images/peoples/therapist-3.jpg" alt="">
 								</div>
 								<div class="uk-card-body impx-padding-medium uk-text-center">
-									<p>Itaque nostrum est-quod nostrum dico, artis ea principia accepimus.</p>
+									<p>Transform stress into bliss with the blissful alchemist's magical fusion of
+										therapies.</p>
 								</div>
 							</div>
 						</li><!-- Therapist #3 end -->
@@ -499,7 +514,7 @@
 								<div class="uk-card-header impx-padding-medium-left impx-padding-medium-right">
 									<div class="uk-flex-middle" data-uk-grid>
 										<div class="uk-width-expand">
-											<h5 class="uk-card-title uk-margin-remove-bottom">Khiva Doe</h5>
+											<h5 class="uk-card-title uk-margin-remove-bottom">Khiva Cecilia</h5>
 										</div>
 										<div class="uk-width-auto">
 											<div class="uk-label small bg-color-aqua">therapist</div>
@@ -510,7 +525,8 @@
 									<img src="images/peoples/therapist-4.jpg" alt="">
 								</div>
 								<div class="uk-card-body impx-padding-medium uk-text-center">
-									<p>Itaque nostrum est-quod nostrum dico, artis ea principia accepimus.</p>
+									<p>Relax and unwind as the relaxation virtuoso conducts a masterpiece of peaceful
+										indulgence.</p>
 								</div>
 							</div>
 						</li><!-- Therapist #4 end -->
