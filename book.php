@@ -116,7 +116,6 @@ if (isset($_GET['type'])) {
 						<div class="uk-margin">
 							<div class="uk-form-controls uk-position-relative">
 								<label class="uk-form-label" for="form-guest-select">Guest
-									<?php echo ($price) ?>
 								</label>
 								<span class="uk-form-icon select-icon" data-uk-icon="icon: users"></span>
 								<select class="uk-select uk-border-rounded" id="form-guest-select" name="guestNumber">

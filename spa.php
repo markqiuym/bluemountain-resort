@@ -62,7 +62,7 @@
 			<div class="uk-position-center uk-flex uk-flex-middle">
 				<div class="impx-slide-fw-caption spa">
 					<div class=" center bottom"></div>
-					<h1 class="uk-margin-remove impx-text-shadow uk-text-center impx-text-white">Oriental Spa</h1>
+					<h1 class="uk-margin-remove impx-text-shadow uk-text-center impx-text-white">Mountain Spa</h1>
 					<!-- title -->
 					<p
 						class="uk-text-large impx-text-lighter uk-margin-remove impx-text-shadow uk-text-center uk-text-uppercase">

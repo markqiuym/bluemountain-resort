@@ -62,7 +62,7 @@
 				<div class="uk-flex uk-flex-left">
 					<div class="uk-light uk-position-relative uk-text-left page-title">
 						<h1 class="uk-margin-remove">RESORT</h1><!-- page title -->
-						<p class="impx-text-large uk-margin-remove">Browse &amp; Choose Your Choice</p>
+						<p class="impx-text-large uk-margin-remove">Browse &amp; Choose</p>
 						<!-- page subtitle -->
 					</div>
 				</div>
@@ -103,7 +103,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text ">BOOK
 														NOW
 														&raquo;</a>
@@ -113,7 +113,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text "
 														uk-toggle="target: #modal-example">BOOK
 														NOW
@@ -153,7 +153,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text ">BOOK
 														NOW
 														&raquo;</a>
@@ -163,7 +163,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text "
 														uk-toggle="target: #modal-example">BOOK
 														NOW
@@ -203,7 +203,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text ">BOOK
 														NOW
 														&raquo;</a>
@@ -213,7 +213,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text "
 														uk-toggle="target: #modal-example">BOOK
 														NOW
@@ -252,7 +252,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text ">BOOK
 														NOW
 														&raquo;</a>
@@ -262,7 +262,7 @@
 												?>
 												<div
 													class="uk-card-footer uk-padding-remove-horizontal uk-padding-remove-bottom">
-													<a href="book.php?type=Villa B&price=500&image=images/rooms/room-1.jpg"
+													<a href="book.php?type=Villa B&price=300&image=images/rooms/room-1.jpg"
 														class="uk-button uk-button-text "
 														uk-toggle="target: #modal-example">BOOK
 														NOW

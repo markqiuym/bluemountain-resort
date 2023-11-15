@@ -73,7 +73,7 @@
 				<div class="uk-flex uk-flex-left">
 					<div class="uk-light uk-position-relative uk-text-left page-title">
 						<h1 class="uk-margin-remove">RESORT</h1><!-- page title -->
-						<p class="impx-text-large uk-margin-remove">Browse &amp; Choose Your Choice</p>
+						<p class="impx-text-large uk-margin-remove">Browse &amp; Choose</p>
 						<!-- page subtitle -->
 					</div>
 				</div>

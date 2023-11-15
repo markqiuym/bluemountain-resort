@@ -97,7 +97,7 @@
 				<!-- Image End -->
 				<!-- Contact Info -->
 				<div class="uk-width-3-5@xl uk-width-3-5@l uk-width-3-5@m uk-width-1-1@s impx-intro resto">
-					<h3>Make an Appointment</h3>
+					<h3>Make Reservation</h3>
 					<p class="impx-text-large uk-margin-bottom">Secure your table at our restaurant. Make a reservation
 						today!</p>
 					<ul class="impx-list-inline impx-hours">
